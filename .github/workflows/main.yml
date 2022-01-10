@@ -14,7 +14,7 @@ jobs:
           path: main
       - name: Fetch the data and save it
         run: |
-            curl 'https://bscscan.com/token/token-analytics?m=normal&contractAddress=0x0522ecfe37ab2bdb5d60a99e08d1e8379bd35c00&a=0x0b5ebf9bab9b796e9408a8222efa4fbab625313f&lg=en%22' -o test.json
+            curl 'https://bscscan.com/token/token-analytics?m=normal&contractAddress=0x0522ecfe37ab2bdb5d60a99e08d1e8379bd35c00&a=0x0b5ebf9bab9b796e9408a8222efa4fbab625313f&lg=en%22' > test.json
             git config user.name github-actions
             git config user.email github-actions@github.com
             git add .
