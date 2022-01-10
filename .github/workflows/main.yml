@@ -12,9 +12,9 @@ jobs:
         uses: owner/repo@ref
       - name: Fetch the data and save it
         run: |
-               curl "https://tilos.hu/api/v1/episode?start=$(date --date='-12 hour' +%s)000&end=$(date --date='+12 hour' +%s)000" -o public/daily-schedule.json
-               git config user.name github-actions
-               git config user.email github-actions@github.com
-               git add .
-               git commit -m "Update daily-schedule.json"
-               git push
+            curl 'https://bscscan.com/token/token-analytics?m=normal&contractAddress=0x0522ecfe37ab2bdb5d60a99e08d1e8379bd35c00&a=0x0b5ebf9bab9b796e9408a8222efa4fbab625313f&lg=en%22' -o test.json
+            git config user.name github-actions
+            git config user.email github-actions@github.com
+            git add .
+            git commit -m "test.json"
+            git push
