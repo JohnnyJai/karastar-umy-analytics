@@ -1,4 +1,4 @@
-name: Reminder
+name: Update burn and mint data
 on:
   schedule:
     - cron: "*/5 * * * *"
