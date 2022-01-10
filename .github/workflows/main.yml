@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: JohnnyJai/karastar-umy-analytics
+        uses: JohnnyJai/karastar-umy-analytics@cron
       - name: Fetch the data and save it
         run: |
                curl "https://tilos.hu/api/v1/episode?start=$(date --date='-12 hour' +%s)000&end=$(date --date='+12 hour' +%s)000" -o public/daily-schedule.json
