@@ -1,0 +1,873 @@
+
+<html>
+<head>
+<title></title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<link rel="stylesheet" href="/assets/vendor/font-awesome/css/fontawesome-all.min.css?v=22.1.1.0">
+<link rel="stylesheet" href="/assets/css/theme.min.css?v=22.1.1.0">
+<link rel="stylesheet" href="/assets/css/custom.css?v=22.1.1.0">
+<script src="/assets/vendor/jquery/dist/jquery.min.js?v=22.1.1.0"></script>
+<style>
+         .table.tableformat tr td {
+            font-size: 8px !important;
+            font-style: italic;
+        } 
+        .highcharts-tooltip span {
+            height:auto;
+            min-width:270px;            
+            overflow:auto;
+            white-space:normal !important; 
+            background-color:white;
+            opacity: 1 !important;                 
+        } 
+        .highslide-header {
+            height: 27px !important;
+        }
+        .highcharts-legend span {
+            font-size: 12px !important;
+        }
+        .highcharts-title {
+            fill: #434348;
+            font-size: 12px !important ;
+            /*font-weight: bold;*/
+            /*font-family: 'Courier New', monospace;*/  
+        }
+
+        .highcharts-tooltip, .highcharts-tooltip text {
+            font-size:12px !important;
+        }
+
+        .highcharts-subtitle {
+            /*font-family: 'Courier New', monospace;*/    
+            height:20px !important ;
+            fill: #7cb5ec;
+        }
+        table.tokensummary {
+          /*border: 1px solid #1C6EA4;*/
+          background-color: #EEEEEE;          
+          width: 100%;
+          /*text-align: left;*/
+          border-collapse: collapse;
+        }
+        table.tokensummary td {
+            padding:5px;
+            font-size:11px;
+        }
+        table.tokensummary th {
+            padding:5px;
+            font-size:11px;
+        }
+        img.cssimgicon {
+            width:13px;
+            border-radius: 8px;
+            margin-top:-5px !important;
+            padding-right:2px;
+        }
+
+        .tableformat {
+            font-size: 12px !important;
+        }
+
+        body.dark-mode #containerchart1 .highcharts-yaxis-grid .highcharts-grid-line, 
+        body.dark-mode #containerchart2a .highcharts-yaxis-grid .highcharts-grid-line, 
+        body.dark-mode #containerchart2b .highcharts-yaxis-grid .highcharts-grid-line {
+            stroke: #013558 !important
+        }
+        
+    </style>
+<script src="/assets/highstocks-new/js/highstock.js?v=22.1.1.0"></script>
+<script src="/assets/highcharts-new/js/highcharts-more.js?v=22.1.1.0"></script>
+<script src="/assets/highcharts-module/js/annotations.js?v=22.1.1.0"></script>
+<script src="/assets/highslide/highslide-full.min.js?v=22.1.1.0"></script>
+<script src="/assets/highslide/highslide.config.js?v=22.1.1.0" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="/assets/highslide/highslide.css?v=22.1.1.0" />
+<script type="text/javascript">    
+        var tokenname = 'KaraStar UMY';
+        var tokensymbol = 'UMY';
+        var tokenimage = '';
+
+        var contractAddress = '0x0522ecfe37ab2bdb5d60a99e08d1e8379bd35c00';
+        var address = '0x0b5ebf9bab9b796e9408a8222efa4fbab625313f';
+        var current_usd_eth_value = 424.25;
+        var chartHeight = 500;
+
+        var plotData = eval([]);
+        var plotData_datemax = '';
+        
+        var plotData2ab = eval([[Date.UTC(2021,11,11),225,0,225,0,64,24605,0,24605],[Date.UTC(2021,11,12),178,0,178,0,87,45680,0,21075],[Date.UTC(2021,11,13),213,0,213,0,74,59765,0,14085],[Date.UTC(2021,11,14),637,0,637,0,149,74765,0,15000],[Date.UTC(2021,11,15),577,0,577,0,150,103925,0,29160],[Date.UTC(2021,11,16),802,0,802,0,193,163965,0,60040],[Date.UTC(2021,11,17),687,0,687,0,200,529810.09864,0,365845.09864],[Date.UTC(2021,11,18),618,0,618,0,206,627020.09864,0,97210],[Date.UTC(2021,11,19),482,0,482,0,205,742119.877181,0,115099.778541],[Date.UTC(2021,11,20),704,0,704,0,226,816189.877181,0,74070],[Date.UTC(2021,11,21),586,0,586,0,230,912504.877181,0,96315],[Date.UTC(2021,11,22),805,0,805,0,323,1074809.877181,0,162305],[Date.UTC(2021,11,23),909,0,909,0,443,1322459.388426,0,247649.511245],[Date.UTC(2021,11,24),1042,0,1042,0,529,1521954.388426,0,199495],[Date.UTC(2021,11,25),550,0,550,0,204,1614084.388426,0,92130],[Date.UTC(2021,11,26),563,1,562,1,175,1657334.388426,34800,78050],[Date.UTC(2021,11,27),842,0,842,0,301,1848369.388426,0,191035],[Date.UTC(2021,11,28),692,0,692,0,345,2027809.388426,0,179440],[Date.UTC(2021,11,29),1231,0,1231,0,611,2335884.388426,0,308075],[Date.UTC(2021,11,30),817,0,817,0,418,2518644.388426,0,182760],[Date.UTC(2021,11,31),757,0,757,0,343,2703849.388426,0,185205],[Date.UTC(2022,0,1),764,1,763,1,215,1004884.388426,1823000,124035],[Date.UTC(2022,0,2),1922,0,1922,0,982,1648584.388426,0,643700],[Date.UTC(2022,0,3),1403,0,1403,0,644,2083814.388426,0,435230],[Date.UTC(2022,0,4),1086,0,1086,0,697,2357379.388426,0,273565],[Date.UTC(2022,0,5),1090,0,1090,0,624,2699719.388426,0,342340],[Date.UTC(2022,0,6),1054,0,1054,0,442,3021389.388426,0,321670],[Date.UTC(2022,0,7),494,0,494,0,209,3159784.388426,0,138395],[Date.UTC(2022,0,8),718,0,718,0,233,3345464.388426,0,185680],[Date.UTC(2022,0,9),822,0,822,0,321,3549594.388426,0,204130],]);    
+        var plotData2ab_datemax = Date.UTC(2022,0,9);
+
+        var strnodatatxt = "<span class='d-block text-center py-5'>No data points found for the current time series.<br>Note: Chart data is updated daily, you may try checking back later</div></span>";
+        var currencySymbol = 'USD';
+             
+        $(document).ready(function () {     
+             
+                generateChart_2a();
+                generateChart_2b();
+                generateChart_2c();
+            
+        });  
+          
+        //Token Transfers Time Series Chart for a specific address
+        function generateChart_2a() {    
+            $("#container_2a").attr("style", "display:visible;");
+            $("#containerchart2a").attr("style", "display:visible;");
+            var seriesNameConverter = {
+                'Series_1': 'Total Transfers',
+                'Series_2': 'Outbound Transfers Count',
+                'Series_3': 'Inbound Transfers Count',
+                'Series_4': 'Unique Address Sent',
+                'Series_5': 'Unique Address Received'
+            };
+            var chart;
+            chart = new Highcharts.chart({
+                chart: {
+                    renderTo: 'containerchart2a',
+                    zoomType: 'x',
+                    height: chartHeight
+                },
+                navigator: {
+                    enabled: true
+                },
+                rangeSelector: {
+                    buttons: [{
+                        type: 'month',
+                        count: 1,
+                        text: '1m'
+                    }, {
+                        type: 'month',
+                        count: 6,
+                        text: '6m'
+                    }, {
+                        type: 'year',
+                        count: 1,
+                        text: '1y'
+                    }, {
+                        type: 'all',
+                        text: 'All'
+                    }],
+                    selected: 4,
+                    enabled: true
+                },
+                title: {
+                    text: tokensymbol + ' Token Transfers for 0x0b5ebf9bab9b796e9408a8222efa4fbab625313f'
+                },
+                subtitle: {
+                    text: 'Source: BscScan.com'
+                },
+                xAxis: {
+                    //gridLineWidth: 1,
+                    //top: 11,
+                    type: 'datetime',
+                    crosshair: {
+                        width: 2,                        
+                    },
+                    max: plotData2ab_datemax
+                },
+                yAxis: [{
+                    //-Total Transfers
+                    title: {
+                        text: 'Transfer Counts'
+                    },
+                    min: 0,
+                    resize: {
+                        enabled: true
+                    },
+                    opposite: false,
+                    showEmpty: false                    
+                }, {
+                    //-Outbound Transfers Count
+                    resize: {
+                        enabled: true
+                    },
+                    title: {
+                        text: ''
+                    },
+                    min: 0,
+                    //linkedTo: 1,
+                    showEmpty: false,
+                    opposite: true
+                }, {
+                    //-Inbound Transfers
+                    //visible: false,
+                    //linkedTo: 0,
+                    showEmpty: false,
+                    min: 0,
+                    opposite: true,
+                    title: {
+                        text: ''
+                    }
+                }, {
+                    //-Unqiue Addr Sent
+                    resize: {
+                        enabled: true
+                    },
+                    min: 0,
+                    title: {
+                        text: 'Unique Counts'
+                    },
+                    opposite: true,
+                    //linkedTo: 1,
+                    showEmpty: false
+                    //tickInterval: 1
+                }, {
+                    //-Unqiue Addr Received
+                    resize: {
+                        enabled: true
+                    },
+                    min: 0,
+                    opposite: true,
+                    //linkedTo: 1,
+                    showEmpty: false
+                }
+                ],
+                plotOptions: {
+                    series: {
+                        animation: {
+                            duration: 0
+                        },
+                        turboThreshold: 10000,
+                        //cursor: 'pointer',
+                        point: {
+                            
+                        },
+                        marker: {
+                            lineWidth: 1
+                        }
+                    }
+                },
+                credits: {
+                    enabled: false
+                },
+                legend: {
+                    enabled: true,
+                    labelFormatter: function () {
+                         return seriesNameConverter[this.name];
+                    },
+                    //itemStyle: {
+                    //    color: '#000000',
+                    //    fontWeight: 'bold'
+                    //}
+                },
+                tooltip: {
+                    hideDelay: 0,
+                    crosshairs: true,
+                    //split: false,
+                    useHTML: true,
+                    shared: true,
+                    shadow: true,
+                    split: false,
+                    backgroundColor: 'white',
+                    formatter: function () {
+                        var s;
+                        var points = this.points;
+                        var pointsLength = points.length;
+                        s = '<table class="tableformat" style="border: 0px;" width="100%"><tr><td colspan=2 style="padding-bottom:5px;"><span style="font-size: 10px;"> ' + Highcharts.dateFormat('%a %e, %B %Y', new Date(points[0].key)) + '</span><br></td></tr>'
+                        for (index = 0; index < pointsLength; index += 1) {
+                            //var pointData;
+                            //pointData = plotData.find(row => row[0] === this.points[index].x);
+                            s += '<tr><td style="padding-top:4px;padding-bottom:4px;border-top:1px solid #D5D8DC;" valign="top"><span style="color:' + points[index].series.color + ';font-size: 15px !important;">\u25A0</span> ' + seriesNameConverter[points[index].series.name] + '</td>' +
+                                '<td align="right" valign="top" style="padding-top:5px;padding-bottom:4px;border-top:1px solid #D5D8DC;"><span style=""><b>' +
+                                points[index].y +
+                                '</b></td></tr>' ;                            
+                        }                        
+                        s += '</table>';
+                        return s;
+                    },
+
+                },
+                series: [{
+                    name: 'Series_1',  //Total token Transfers
+                    type: 'column',
+                    keys: ['x', 'y'],
+                    data: plotData2ab,
+                    pointWidth: 5,
+                    tooltip: {
+                        pointFormatter: function () {
+                            var text;
+                            var point = this;
+                            text = '<br><span style="color:' + point.series.color + '">&#11044</span> ' + point.series.name + ': <b>' + this.y + '</b><br>';
+                            return text;
+                        }
+                    }
+                }, {
+                    name: 'Series_2',   //Outbound Transfers count
+                    type: 'line',
+                    //yAxis: 1,
+                    keys: ['x', 'a', 'y'],
+                    data: plotData2ab
+                }, {
+                    name: 'Series_3',   //Inbound Transfers count
+                    type: 'line',
+                    keys: ['x', 'a', 'b', 'y'],
+                    //yAxis: 1,
+                    visible: true,
+                    data: plotData2ab
+                }, {
+                    name: 'Series_4',  //Unique Address SentTo count
+                    type: 'line',
+                    keys: ['x', 'a', 'b', 'c', 'y'],
+                    visible: true,
+                    yAxis: 1,
+                    data: plotData2ab
+                }, {
+                    name: 'Series_5', //Unique Address ReceivedFrom count
+                    type: 'line',
+                    keys: ['x', 'a', 'b', 'c', 'd', 'y'],
+                    visible: true,
+                    yAxis: 1,
+                    data: plotData2ab
+                }
+                ]
+            }, function (chart) { // on complete
+                var point = chart.series[0].points[0];                                
+                if (typeof point == 'undefined') {
+
+                    $("#container_2a").attr("style", "display:none;");
+                    $("#containerchart2a").attr("style", "display:none;");                      
+                    document.getElementById("tab2_default_content").innerHTML = strnodatatxt
+                }                
+            }
+            )
+            $("#addressdisplay_2a").text(formatDate(chart.xAxis[0].getExtremes().dataMin) + " - " + formatDate(chart.xAxis[0].getExtremes().dataMax));            
+        }
+        //- End ------------------------
+
+        //Token Balance Time Series Chart for a specific address
+        function generateChart_2b() {    
+            $("#container_2b").attr("style", "display:visible;");
+            $("#containerchart2b").attr("style", "display:visible;");
+            var seriesNameConverter = {
+                'Series_1': 'Token Balance'                
+            };
+            var chart;
+            chart = new Highcharts.chart({
+                chart: {
+                    renderTo: 'containerchart2b',
+                    zoomType: 'x',
+                    height: chartHeight
+                },
+                navigator: {
+                    enabled: true
+                },
+                rangeSelector: {
+                    buttons: [{
+                        type: 'month',
+                        count: 1,
+                        text: '1m'
+                    }, {
+                        type: 'month',
+                        count: 6,
+                        text: '6m'
+                    }, {
+                        type: 'year',
+                        count: 1,
+                        text: '1y'
+                    }, {
+                        type: 'all',
+                        text: 'All'
+                    }],
+                    selected: 4,
+                    enabled: true
+                },
+                title: {
+                    text: tokensymbol + ' Token Balance for 0x0b5ebf9bab9b796e9408a8222efa4fbab625313f'
+                },
+                subtitle: {
+                    text: 'Source: BscScan.com'
+                },
+                xAxis: {
+                    //gridLineWidth: 1,
+                    //top: 11,
+                    type: 'datetime',
+                    crosshair: {
+                        width: 2,                        
+                    },
+                    max: plotData2ab_datemax
+                },
+                yAxis: [{
+                    //-Total Balance
+                    title: {
+                        text: 'Token Balance'
+                    },
+                    resize: {
+                        enabled: true
+                    },
+                    opposite: false,
+                    showEmpty: false,
+                }, {
+                    //-Token Price
+                    resize: {
+                        enabled: true
+                    },
+                    title: {
+                        text: 'Token Price'
+                    },
+                    showEmpty: false,
+                    opposite: true,
+                }
+                ],
+                plotOptions: {
+                    series: {
+                        animation: {
+                            duration: 0
+                        },
+                        turboThreshold: 10000,
+                        //cursor: 'pointer',
+                        point: {
+                            
+                        },
+                        marker: {
+                            lineWidth: 1
+                        }
+                    }
+                },
+                credits: {
+                    enabled: false
+                },
+                legend: {
+                    enabled: true,
+                    labelFormatter: function () {
+                         return seriesNameConverter[this.name];
+                    },
+                },
+                tooltip: {
+                    hideDelay: 0,
+                    crosshairs: true,
+                    useHTML: true,
+                    shared: true,
+                    shadow: true,
+                    split: false,
+                    backgroundColor: 'white',
+                    formatter: function () {
+                        var s;
+                        var points = this.points;
+                        var pointsLength = points.length;
+                        s = '<table class="tableformat" style="border: 0px;" width="100%"><tr><td colspan=2 style="padding-bottom:5px;"><span style="font-size: 10px;"> ' + Highcharts.dateFormat('%a %e, %B %Y', new Date(points[0].key)) + '</span><br></td></tr>'
+                        for (index = 0; index < pointsLength; index += 1) {
+                            //var pointData;
+                            //pointData = plotData.find(row => row[0] === this.points[index].x);
+                            s += '<tr><td style="padding-top:4px;padding-bottom:4px;border-top:1px solid #D5D8DC;" valign="top"><span style="color:' + points[index].series.color + ';font-size: 15px !important;">\u25A0</span> ' + seriesNameConverter[points[index].series.name] + '</td>' +
+                                '<td align="right" valign="top" style="padding-top:5px;padding-bottom:4px;border-top:1px solid #D5D8DC;"><span style=""><b>' +
+                                points[index].y +
+                                '</b></td></tr>' ;                            
+                        }                        
+                        s += '</table>';
+                        return s;
+                    },
+
+                },
+                series: [{
+                    name: 'Series_1',  //Token Balance
+                    type: 'line',
+                    keys: ['x', 'a', 'b', 'c', 'd', 'e','y'],
+                    data: plotData2ab,
+                    pointWidth: 5,
+                    tooltip: {
+                        pointFormatter: function () {
+                            var text;
+                            var point = this;
+                            text = '<br><span style="color:' + point.series.color + '">&#11044</span> ' + point.series.name + ': <b>' + this.y + '</b><br>';
+                            return text;
+                        }
+                    }
+                }
+                ]
+            }, function (chart) { // on complete
+                var point = chart.series[0].points[0];                                
+                if (typeof point == 'undefined') {
+
+                    $("#container_2b").attr("style", "display:none;");
+                    $("#containerchart2b").attr("style", "display:none;");                      
+                    document.getElementById("tab3_default_content").innerHTML = strnodatatxt
+                }                
+            }
+            )
+            $("#addressdisplay_2b").text(formatDate(chart.xAxis[0].getExtremes().dataMin) + " - " + formatDate(chart.xAxis[0].getExtremes().dataMax));            
+        }
+        //- End ------------------------
+
+        //Token Balance Time Series Chart for a specific address
+        function generateChart_2c() {
+            $("#container_2c").attr("style", "display:visible;");
+            $("#containerchart2c").attr("style", "display:visible;");
+            var seriesNameConverter = {
+                'Series_1': 'Sent (Out)',
+                'Series_2': 'Receive (In)'
+            };
+            var chart;
+            chart = new Highcharts.chart({
+                chart: {
+                    renderTo: 'containerchart2c',
+                    zoomType: 'x',
+                    height: chartHeight
+                },
+                navigator: {
+                    enabled: true
+                },
+                rangeSelector: {
+                    buttons: [{
+                        type: 'month',
+                        count: 1,
+                        text: '1m'
+                    }, {
+                            type: 'month',
+                            count: 6,
+                            text: '6m'
+                        }, {
+                            type: 'year',
+                            count: 1,
+                            text: '1y'
+                        }, {
+                            type: 'all',
+                            text: 'All'
+                        }],
+                    selected: 4,
+                    enabled: true
+                },
+                title: {
+                    text: tokensymbol + ' Token Transfers for 0x0b5ebf9bab9b796e9408a8222efa4fbab625313f'
+                },
+                subtitle: {
+                    text: 'Source: BscScan.com'
+                },
+                xAxis: {
+                    //gridLineWidth: 1,
+                    //top: 11,
+                    type: 'datetime',
+                    crosshair: {
+                        width: 2,
+                    },
+                    max: plotData2ab_datemax
+                },
+                yAxis: [{
+                        //-Total Transfers
+                        title: {
+                            text: 'Transfer Amounts'
+                        },
+                        min: 0,
+                        resize: {
+                            enabled: true
+                        },
+                        opposite: false,
+                        showEmpty: false
+                    }, {
+                        //-Outbound Transfers Count
+                        resize: {
+                            enabled: true
+                        },
+                        title: {
+                            text: ''
+                        },
+                        min: 0,
+                        //linkedTo: 1,
+                        showEmpty: false,
+                        opposite: true
+                    }
+                ],
+                plotOptions: {
+                    series: {
+                        animation: {
+                            duration: 0
+                        },
+                        turboThreshold: 10000,                        
+                        point: {
+                        },
+                        marker: {
+                            lineWidth: 1
+                        }
+                    }
+                },
+                credits: {
+                    enabled: false
+                },
+                legend: {
+                    enabled: true,
+                    labelFormatter: function () {
+                        return seriesNameConverter[this.name];
+                    },
+                },
+                tooltip: {
+                    hideDelay: 0,
+                    crosshairs: true,
+                    //split: false,
+                    useHTML: true,
+                    shared: true,
+                    shadow: true,
+                    split: false,
+                    backgroundColor: 'white',
+                    formatter: function () {
+                        var s;
+                        var points = this.points;
+                        var pointsLength = points.length;
+                        s = '<table class="tableformat" style="border: 0px;" width="100%"><tr><td colspan=2 style="padding-bottom:5px;"><span style="font-size: 10px;"> ' + Highcharts.dateFormat('%a %e, %B %Y', new Date(points[0].key)) + '</span><br></td></tr>'
+                        for (index = 0; index < pointsLength; index += 1) {
+                            //var pointData;
+                            //pointData = plotData.find(row => row[0] === this.points[index].x);
+                            s += '<tr><td style="padding-top:4px;padding-bottom:4px;border-top:1px solid #D5D8DC;" valign="top"><span style="color:' + points[index].series.color + ';font-size: 15px !important;">\u25A0</span> ' + seriesNameConverter[points[index].series.name] + '</td>' +
+                                '<td align="right" valign="top" style="padding-top:5px;padding-bottom:4px;border-top:1px solid #D5D8DC;"><span style=""><b>' +
+                                points[index].y +
+                                '</b> ' + tokensymbol + '</td></tr>';
+                        }
+                        s += '</table>';
+                        return s;
+                    },
+
+                },
+                series: [{
+                    name: 'Series_1',  //Total token Transfers
+                    type: 'column',
+                    keys: ['x', '1','2','3','4','5','6','y','7'],
+                    data: plotData2ab
+                }, {
+                    name: 'Series_2',   //Outbound Transfers count
+                    type: 'column',
+                        keys: ['x', '1', '2', '3', '4', '5', '6', '7', 'y'],
+                    data: plotData2ab
+                }
+                ]
+            }, function (chart) { // on complete
+                var point = chart.series[0].points[0];
+                if (typeof point == 'undefined') {
+                    $("#container_2c").attr("style", "display:none;");
+                    $("#containerchart2c").attr("style", "display:none;");
+                    document.getElementById("tab4_default_content").innerHTML = strnodatatxt
+                }
+            }
+            )
+               $("#addressdisplay_2c").text(formatDate(chart.xAxis[0].getExtremes().dataMin) + " - " + formatDate(chart.xAxis[0].getExtremes().dataMax));
+           }
+        //- End ------------------------
+
+          
+    </script>
+<script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head>
+<body id="body">
+<style>
+        #overlay {
+            background: #ffffff;
+            color: #666666;
+            position: fixed;
+            height: 100%;
+            width: 100%;
+            z-index: 5000;
+            top: 0;
+            left: 0;
+            float: left;
+            text-align: center;
+            padding-top: 10px;
+        }
+    </style>
+<script>window.parent.isFrameLoading = true;</script>
+<ul class="nav nav-pills nav-pills-secondary mb-2" id="nav_tabs" role="tablist">
+<li id="li_tab3" class="nav-item">
+<a class="nav-link active show" href="#tab3" data-toggle="tab">
+Token Balance</a></li>
+<li id="li_tab4" class="nav-item">
+<a class="nav-link" href="#tab4" data-toggle="tab">
+Token Transfer Amounts<sup><span class="badge badge-success ml-1"> New</span></sup></a></li>
+<li id="li_tab2" class="nav-item">
+<a class="nav-link" href="#tab2" data-toggle="tab">
+Token Transfer Counts</a></li>
+</ul>
+<div class="tab-content card border p-3 mb-4">
+<div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+<span id="tab2_default_content"></span>
+<div style="display: none" id="container_2a">
+<div class="d-md-flex justify-content-between align-items-center mb-3">
+<h4 class="h6 mb-1 mb-md-0">Time Series: Token Transfer Count for User Address</h4>
+<div class="text-secondary">
+<span id="addressdisplay_2a"></span>
+</div>
+</div>
+<hr class="my-0">
+<div class="mt-3">
+<div class="content" id="containerchart2a" style="height: 565px; min-width: 300px; display: none"></div>
+</div>
+</div>
+</div>
+<div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tab4-tab">
+<span id="tab4_default_content"></span>
+ <div style="display: none" id="container_2c">
+<div class="d-md-flex justify-content-between align-items-center mb-3">
+<h4 class="h6 mb-1 mb-md-0">Time Series: Token Transfer Amounts for User Address</h4>
+<div class="text-secondary">
+<span id="addressdisplay_2c"></span>
+</div>
+</div>
+<hr class="my-0">
+<div class="mt-3">
+<div class="content" id="containerchart2c" style="height: 565px; min-width: 300px; display: none"></div>
+</div>
+</div>
+</div>
+<div class="tab-pane fade active show" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
+<span id="tab3_default_content"></span>
+<div style="display: none" id="container_2b">
+<div class="d-md-flex justify-content-between align-items-center mb-3">
+<h4 class="h6 mb-1 mb-md-0">Time Series: Token Balance for User Address</h4>
+<div class="text-secondary">
+<span id="addressdisplay_2b"></span>
+</div>
+</div>
+<hr class="my-0">
+<div class="mt-3">
+<div class="content" id="containerchart2b" style="height: 565px; min-width: 300px; display: none"></div>
+</div>
+</div>
+</div>
+<div class="tab-pane fade" id="tokenChart" role="tabpanel" aria-labelledby="tokenChart-tab">
+<div id="loadingtxframe3">
+<div id="overlay3" class="py-3 text-center">
+<img src="/images/main/loadingblock.svg" alt="Loading" />
+</div>
+</div>
+<div class="table-responsive" style="overflow: auto; -webkit-overflow-scrolling: touch; visibility:hidden;">
+<iframe width="100%" id="tokenchartiframe" src="" frameborder="0" scrolling="yes" style="height: 510px; min-width: 300px;"></iframe>
+</div>
+</div>
+</div>
+<script src="/assets/vendor/bootstrap/bootstrap.min.js?v=22.1.1.0"></script>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6cb905ec4caa093d',m:'RTmJon8msoShP.abu9LRhO2f9K8YswqNiRM.Gxz4e5E-1641850400-0-AULOqCAA7Ifg+RjW92ULVzGmAaiN1vCoOKk6vjhZLfszA2Pa6pRoeTllT3J9uT2L/7tq9w5ym1RF91DK6JZGRZTGpvF/Wvv1zEDLLPEORLPqPgQRIR0Fk7pBbIzofZ0SFyriiAdXEZiuxgmmVMn984jSMyEtS/cWDTa9DU96WXwUzQBjnPriivhedNpZEFMNgs4UOKcr8BjMmLdFOCh7n/24i5fI1AHUXhuIR3Il8lsC6QS8PvlZhLRJfPMEp23n4Bpj9ODODRxyunw71beQE7Gx9k+0mb1vVEG256LRfRxD',s:[0xa3b9f8b9ac,0xbb00ec1981],}})();</script></body>
+<script type="text/javascript"> 
+    $(window).on('load', function () {
+        $('#overlay').fadeOut();
+        window.parent.document.getElementById('loadinganalyticframe').style.display = "none";
+
+        setTimeout(function () {
+            var obj = window.parent.document.getElementById('token_analytics_pageiframe');
+            parent.resizeIframe(obj, -20);
+        }, 300);
+
+        window.parent.isFrameLoading = false;
+        window.parent.token_analytics_loaded = true;
+        window.parent.document.getElementById('overlayMain').style.display = 'none';
+           
+    });
+
+    if ("ontouchstart" in document.documentElement) {
+        $('html').addClass('touch');
+    };
+
+    //- common functions go here -
+    function formatDate(dtTimeStamp) {
+        var date = new Date(dtTimeStamp)
+        var monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"];
+        var dayNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+        var day = date.getDate();
+        var monthIndex = date.getMonth();
+        var year = date.getFullYear();
+        return dayNames[date.getDay()] + ' ' + day + ', ' + monthNames[monthIndex] + ' ' + year;
+    };
+    function addCommas(nStr) {
+        nStr += '';
+        x = nStr.split('.');
+        x1 = x[0];
+        x2 = x.length > 1 ? '.' + x[1] : '';
+        var rgx = /(\d+)(\d{3})/;
+        while (rgx.test(x1)) {
+            x1 = x1.replace(rgx, '$1' + ',' + '$2');
+        }
+        return x1 + x2;
+    };
+    function gettokeninfo(dtTimestamp, address) {
+        var results;
+        $.ajax({
+            //dataType: "json",
+            type: 'Get',
+            url: '/analyticsHandler.ashx?t=t',
+            //async: false,
+            data: { dt: dtTimestamp, address: address },
+            success: function (data) {
+                //console.log("Success| " + data);
+                results = data;
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                console.log("Error| " + textStatus);
+            }
+        });
+        return results;
+    };
+
+    //Start Add Chart Tab
+    window.tokenChartLoaded = false;
+
+    var hash = window.parent.location.hash.substring(1);
+    window.mode = 'normal';
+
+    function activaTab(tab) {            
+        updatehash(hash);
+            
+        $('.nav_tabs1 a[href="#tokenAnalytics"]').tab('show');
+        $('.nav-pills li a[href="#' + tab + '"]').tab('show');      
+    };
+
+    function updatehash(strhash) {
+        if (strhash == '') {
+            var baseUrl = window.parent.location.href.split('#')[0];
+            history.replaceState("", document.title, baseUrl);
+        } else {
+            var baseUrl = window.parent.location.href.split('#')[0];
+            history.replaceState("", document.title, baseUrl + '#' + strhash);
+        };
+        window.parent.document.getElementById('overlayMain').style.display = 'none';
+        return true;
+    };
+       
+    function loadIframeSource1() {
+        if (window.tokenChartLoaded == false) {
+            window.tokenChartLoaded = true;
+            document.getElementById('tokenchartiframe').src = '/token/tokenchart?m=' + window.mode + '&contractAddress=0x0522ecfe37ab2bdb5d60a99e08d1e8379bd35c00';
+        };
+    }; 
+
+    function resizeIframe(obj, addwidth) {
+    setTimeout(function () {
+            obj.style.height = 0;
+            obj.style.height = (obj.contentWindow.document.body.scrollHeight + addwidth) + 'px';
+            obj.parentElement.style.visibility = 'visible';
+        }, 300); 
+    };
+
+    $('#li_tokenChartTab').on('click', function () {
+        $('#tokenChart').attr('style', 'display:visible;');           
+        $('#tab3').attr('style', 'display:none;');
+        $('#tab2').attr('style', 'display:none;');
+        $('#tab1').attr('style', 'display:none;');
+
+        var obj = window.parent.document.getElementById('token_analytics_pageiframe');
+        parent.resizeIframe(obj, -20);
+    });
+    $('#li_tab3').on('click', function () {
+        $('#tab3').attr('style', 'display:visible;');           
+        $('#tokenChart').attr('style', 'display:none;');
+        $('#tab2').attr('style', 'display:none;');
+        $('#tab1').attr('style', 'display:none;');
+
+        var obj = window.parent.document.getElementById('token_analytics_pageiframe');
+        parent.resizeIframe(obj, -20);
+    });
+    $('#li_tab2').on('click', function () {
+        $('#tab2').attr('style', 'display:visible;');           
+        $('#tokenChart').attr('style', 'display:none;');
+        $('#tab3').attr('style', 'display:none;');
+        $('#tab1').attr('style', 'display:none;');
+
+        var obj = window.parent.document.getElementById('token_analytics_pageiframe');
+        parent.resizeIframe(obj, -20);
+    });
+    $('#li_tab1').on('click', function () {
+        $('#tab1').attr('style', 'display:visible;');           
+        $('#tokenChart').attr('style', 'display:none;');
+        $('#tab3').attr('style', 'display:none;');
+        $('#tab2').attr('style', 'display:none;');
+
+        var obj = window.parent.document.getElementById('token_analytics_pageiframe');
+        parent.resizeIframe(obj, -20);
+    });
+    //End Add Chart Tab
+
+</script>
+</html>
