@@ -1,0 +1,19 @@
+name: Update daily schedule
+on:
+    schedule:
+        -   cron: '0 */6 * * *'
+jobs:
+    update_daily_schedule:
+        name: Update data
+        runs-on: ubuntu-latest
+        steps:
+           -   name: Checkout code
+               uses: actions/checkout@v2
+            -   name: Fetch the data and save it
+                run: |
+                   curl "https://tilos.hu/api/v1/episode?start=$(date --date='-12 hour' +%s)000&end=$(date --date='+12 hour' +%s)000" -o public/daily-schedule.json
+                   git config user.name github-actions
+                   git config user.email github-actions@github.com
+                   git add .
+                   git commit -m "Update daily-schedule.json"
+                   git push
