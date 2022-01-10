@@ -88,6 +88,7 @@ function App() {
     const lines = response.trim().replace(/ /g, '').split(/\r?\n/);
     const dataLine = lines.find(line => line.indexOf('varplotData2ab') > -1);
     const data = dataLine.replace("varplotData2ab=eval", '');
+    // eslint-disable-next-line no-eval
     return eval(data);
   }
 
