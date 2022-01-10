@@ -19,10 +19,10 @@ jobs:
             git add .
             git commit -m "Update data"
             git push
-      - name: Setup node
       - uses: actions/setup-node@v2
         with:
           node-version: '16'
           cache: 'npm'
-      - run: npm install
-      - run: npm run deploy
+      - run: |
+            npm install
+            npm run deploy
