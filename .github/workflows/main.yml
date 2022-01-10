@@ -4,7 +4,8 @@ on:
     - cron: "0 */6 * * *"
 
 jobs:
-  reminder:
+  update_daily_schedule:
+    name: Update data
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
