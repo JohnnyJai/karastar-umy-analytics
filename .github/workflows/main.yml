@@ -1,7 +1,7 @@
 name: Update burn and mint data
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "*/5 * * * *"
 
 jobs:
   update_daily_schedule:
