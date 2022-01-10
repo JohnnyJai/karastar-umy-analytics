@@ -7,7 +7,9 @@ jobs:
   reminder:
     runs-on: ubuntu-latest
     steps:
-      - uses: JohnnyJai/karastar-umy-analytics
+      - name: Checkout code
+        uses: JohnnyJai/karastar-umy-analytics
+      - name: Fetch the data and save it
         run: |
                curl "https://tilos.hu/api/v1/episode?start=$(date --date='-12 hour' +%s)000&end=$(date --date='+12 hour' +%s)000" -o public/daily-schedule.json
                git config user.name github-actions
