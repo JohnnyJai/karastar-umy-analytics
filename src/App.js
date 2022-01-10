@@ -3,6 +3,8 @@ import React, { useState, useEffect } from 'react';
 import { useTable } from 'react-table'
 import styled from 'styled-components'
 import './App.css';
+import BURNING_DATA_FILE from './BURNING_DATA.txt';
+import MINTING_DATA_FILE from './MINTING_DATA.txt';
 
 const Styles = styled.div`
   padding: 1rem;
@@ -79,8 +81,8 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   const fetchData = async (url) => {
-    let response =await fetch(`https://app.scrapingbee.com/api/v1/?api_key=7EN0QBQWRIAWNGYQ5CARBCAFZKYTW2F3PSL4FV25NJYY12JHUDAVYF58N2FQSCTQJBGSYG6T616UH2AC&url=${encodeURIComponent(url)}`, {
-      "method": "GET",
+    let response =await fetch(url, {
+      "method": "GET"
     });
     response = await response.text();
     const lines = response.trim().replace(/ /g, '').split(/\r?\n/);
@@ -94,8 +96,7 @@ function App() {
   useEffect(() => {
     (async () => {
       const tempData = {};
-      const BURNING_URL = "https://bscscan.com/token/token-analytics?m=normal&contractAddress=0x0522ecfe37ab2bdb5d60a99e08d1e8379bd35c00&a=0x0b5ebf9bab9b796e9408a8222efa4fbab625313f&lg=en";
-      const BURNING_DATA = await fetchData(BURNING_URL);
+      const BURNING_DATA = await fetchData(BURNING_DATA_FILE);
       BURNING_DATA.forEach(data => {
         const timestep = data[0];
         if (!(timestep in tempData)) {
@@ -103,8 +104,7 @@ function App() {
         }
         tempData[timestep].burn = Math.round(data[8]);
       });
-      const MINTING_URL = "https://bscscan.com/token/token-analytics?m=normal&contractAddress=0x0522ecfe37ab2bdb5d60a99e08d1e8379bd35c00&a=0x7788d9db565828fd99cfdc32414958587d09ae15&lg=en";
-      const MINTING_DATA = await fetchData(MINTING_URL);
+      const MINTING_DATA = await fetchData(MINTING_DATA_FILE);
       MINTING_DATA.forEach(data => {
         const timestep = data[0];
         if (!(timestep in tempData)) {
