@@ -1,40 +1,11 @@
 import logo from './logo.svg';
 import React, { useState, useEffect } from 'react';
 import { useTable } from 'react-table'
-import styled from 'styled-components'
 import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import './App.css';
 import BURNING_DATA_FILE from './BURNING_DATA.txt';
 import MINTING_DATA_FILE from './MINTING_DATA.txt';
-
-const Styles = styled.div`
-  padding: 1rem;
-
-  table {
-    border-spacing: 0;
-    border: 1px solid black;
-
-    tr {
-      :last-child {
-        td {
-          border-bottom: 0;
-        }
-      }
-    }
-
-    th,
-    td {
-      margin: 0;
-      padding: 0.5rem;
-      border-bottom: 1px solid black;
-      border-right: 1px solid black;
-
-      :last-child {
-        border-right: 0;
-      }
-    }
-  }
-`
+import KARASTAR_LOGO from './karastar_logo.png';
 
 function Table({ columns, data }) {
   // Use the state and functions returned from useTable to build your UI
@@ -51,7 +22,7 @@ function Table({ columns, data }) {
 
   // Render the UI for your table
   return (
-    <table {...getTableProps()}>
+    <table class="responsive-table highlight border-table" {...getTableProps()}>
       <thead>
         {headerGroups.map(headerGroup => (
           <tr {...headerGroup.getHeaderGroupProps()}>
@@ -162,6 +133,10 @@ function App() {
 
   return (
     <div className="App">
+      <nav class="col s12 m12 l12">
+        <img src={KARASTAR_LOGO} alt="Karastar logo" />
+        <h4 className="title">UMY analytics</h4>
+      </nav>
       {loading && <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Loading ...</p>
@@ -169,10 +144,10 @@ function App() {
       {!loading && tableData.length > 0 && 
             <div class="row">
             <div class="col s12 m5 l5">
-              <Styles><Table columns={columns} data={tableData} /></Styles>
+              <Table columns={columns} data={tableData} />
             </div>
             <div class="col s12 m7 l7" style={{ height: '100vh' }}>
-              <ResponsiveContainer width="100%" height="50%">
+              <ResponsiveContainer width="100%" height="45%">
                 <BarChart
                   width={500}
                   height={300}
@@ -184,16 +159,16 @@ function App() {
                     bottom: 5,
                   }}
                 >
-                  <CartesianGrid />
-                  <XAxis dataKey="timestep" tickFormatter={timeStr => new Date(timeStr).toISOString().substring(0, 10)} />
+                  <CartesianGrid strokeDasharray="3 3"/>
+                  <XAxis dataKey="timestep" tickFormatter={timeStr => new Date(timeStr).toISOString().substring(0, 10)} interval={5} />
                   <YAxis />
                   <Tooltip labelFormatter={timeStr => new Date(timeStr).toISOString().substring(0, 10)} />
                   <Legend />
-                  <Bar dataKey="burn" stackId="a" fill="#f44336" />
-                  <Bar dataKey="mint" stackId="a" fill="#2196f3" />
+                  <Bar dataKey="burn" stackId="a" fill="#e57373" />
+                  <Bar dataKey="mint" stackId="a" fill="#81c784" />
                 </BarChart>
               </ResponsiveContainer>
-              <ResponsiveContainer width="100%" height="50%">
+              <ResponsiveContainer width="100%" height="45%">
                 <LineChart
                   width={500}
                   height={300}
@@ -206,10 +181,10 @@ function App() {
                   }}
                 >
                   <CartesianGrid strokeDasharray="3 3" />
-                  <XAxis dataKey="timestep" tickFormatter={timeStr => new Date(timeStr).toISOString().substring(0, 10)} />
+                  <XAxis dataKey="timestep" tickFormatter={timeStr => new Date(timeStr).toISOString().substring(0, 10)} interval={5} />
                   <YAxis />
                   <Tooltip labelFormatter={timeStr => new Date(timeStr).toISOString().substring(0, 10)} />
-                  <Line type="monotone" dataKey="totalSupply" stroke="#2196f3" activeDot={{ r: 8 }} />
+                  <Line type="monotone" dataKey="totalSupply" stroke="#64b5f6" activeDot={{ r: 8 }} />
                 </LineChart>
               </ResponsiveContainer>
             </div>
