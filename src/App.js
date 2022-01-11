@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import React, { useState, useEffect } from 'react';
 import { useTable } from 'react-table'
 import styled from 'styled-components'
+import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import './App.css';
 import BURNING_DATA_FILE from './BURNING_DATA.txt';
 import MINTING_DATA_FILE from './MINTING_DATA.txt';
@@ -165,7 +166,55 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>Loading ...</p>
       </header>}
-      {!loading && tableData.length > 0 && <Styles><Table columns={columns} data={tableData} /></Styles>}
+      {!loading && tableData.length > 0 && 
+            <div class="row">
+            <div class="col s12 m5 l5">
+              <Styles><Table columns={columns} data={tableData} /></Styles>
+            </div>
+            <div class="col s12 m7 l7" style={{ height: '100vh' }}>
+              <ResponsiveContainer width="100%" height="50%">
+                <BarChart
+                  width={500}
+                  height={300}
+                  data={tableData}
+                  margin={{
+                    top: 20,
+                    right: 30,
+                    left: 20,
+                    bottom: 5,
+                  }}
+                >
+                  <CartesianGrid />
+                  <XAxis dataKey="timestep" tickFormatter={timeStr => new Date(timeStr).toISOString().substring(0, 10)} />
+                  <YAxis />
+                  <Tooltip labelFormatter={timeStr => new Date(timeStr).toISOString().substring(0, 10)} />
+                  <Legend />
+                  <Bar dataKey="burn" stackId="a" fill="#f44336" />
+                  <Bar dataKey="mint" stackId="a" fill="#2196f3" />
+                </BarChart>
+              </ResponsiveContainer>
+              <ResponsiveContainer width="100%" height="50%">
+                <LineChart
+                  width={500}
+                  height={300}
+                  data={tableData}
+                  margin={{
+                    top: 5,
+                    right: 30,
+                    left: 20,
+                    bottom: 5,
+                  }}
+                >
+                  <CartesianGrid strokeDasharray="3 3" />
+                  <XAxis dataKey="timestep" tickFormatter={timeStr => new Date(timeStr).toISOString().substring(0, 10)} />
+                  <YAxis />
+                  <Tooltip labelFormatter={timeStr => new Date(timeStr).toISOString().substring(0, 10)} />
+                  <Line type="monotone" dataKey="totalSupply" stroke="#2196f3" activeDot={{ r: 8 }} />
+                </LineChart>
+              </ResponsiveContainer>
+            </div>
+          </div>
+      }
     </div>
   );
 }
