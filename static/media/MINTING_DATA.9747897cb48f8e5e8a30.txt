@@ -89,14 +89,14 @@
         var tokenimage = '';
 
         var contractAddress = '0x0522ecfe37ab2bdb5d60a99e08d1e8379bd35c00';
-        var address = '0x0b5ebf9bab9b796e9408a8222efa4fbab625313f';
-        var current_usd_eth_value = 460.47;
+        var address = '0x7788d9db565828fd99cfdc32414958587d09ae15';
+        var current_usd_eth_value = 461.83;
         var chartHeight = 500;
 
         var plotData = eval([]);
         var plotData_datemax = '';
         
-        var plotData2ab = eval([[Date.UTC(2021,11,11),225,0,225,0,64,24605,0,24605],[Date.UTC(2021,11,12),178,0,178,0,87,45680,0,21075],[Date.UTC(2021,11,13),213,0,213,0,74,59765,0,14085],[Date.UTC(2021,11,14),637,0,637,0,149,74765,0,15000],[Date.UTC(2021,11,15),577,0,577,0,150,103925,0,29160],[Date.UTC(2021,11,16),802,0,802,0,193,163965,0,60040],[Date.UTC(2021,11,17),687,0,687,0,200,529810.09864,0,365845.09864],[Date.UTC(2021,11,18),618,0,618,0,206,627020.09864,0,97210],[Date.UTC(2021,11,19),482,0,482,0,205,742119.877181,0,115099.778541],[Date.UTC(2021,11,20),704,0,704,0,226,816189.877181,0,74070],[Date.UTC(2021,11,21),586,0,586,0,230,912504.877181,0,96315],[Date.UTC(2021,11,22),805,0,805,0,323,1074809.877181,0,162305],[Date.UTC(2021,11,23),909,0,909,0,443,1322459.388426,0,247649.511245],[Date.UTC(2021,11,24),1042,0,1042,0,529,1521954.388426,0,199495],[Date.UTC(2021,11,25),550,0,550,0,204,1614084.388426,0,92130],[Date.UTC(2021,11,26),563,1,562,1,175,1657334.388426,34800,78050],[Date.UTC(2021,11,27),842,0,842,0,301,1848369.388426,0,191035],[Date.UTC(2021,11,28),692,0,692,0,345,2027809.388426,0,179440],[Date.UTC(2021,11,29),1231,0,1231,0,611,2335884.388426,0,308075],[Date.UTC(2021,11,30),817,0,817,0,418,2518644.388426,0,182760],[Date.UTC(2021,11,31),757,0,757,0,343,2703849.388426,0,185205],[Date.UTC(2022,0,1),764,1,763,1,215,1004884.388426,1823000,124035],[Date.UTC(2022,0,2),1922,0,1922,0,982,1648584.388426,0,643700],[Date.UTC(2022,0,3),1403,0,1403,0,644,2083814.388426,0,435230],[Date.UTC(2022,0,4),1086,0,1086,0,697,2357379.388426,0,273565],[Date.UTC(2022,0,5),1090,0,1090,0,624,2699719.388426,0,342340],[Date.UTC(2022,0,6),1054,0,1054,0,442,3021389.388426,0,321670],[Date.UTC(2022,0,7),494,0,494,0,209,3159784.388426,0,138395],[Date.UTC(2022,0,8),718,0,718,0,233,3345464.388426,0,185680],[Date.UTC(2022,0,9),822,0,822,0,321,3549594.388426,0,204130],[Date.UTC(2022,0,10),792,0,792,0,358,3733274.388426,0,183680],]);    
+        var plotData2ab = eval([[Date.UTC(2021,11,1),1,0,1,0,1,8000000000,0,8000000000],[Date.UTC(2021,11,11),1470,1470,0,1352,0,7999898872.5,101127.5,0],[Date.UTC(2021,11,12),1537,1537,0,1535,0,7999842296.2,56576.3,0],[Date.UTC(2021,11,13),682,682,0,682,0,7999808558.85,33737.35,0],[Date.UTC(2021,11,14),521,521,0,521,0,7999769074,39484.85,0],[Date.UTC(2021,11,15),493,493,0,493,0,7999734359.1,34714.9,0],[Date.UTC(2021,11,16),1398,1398,0,1398,0,7999665201.95,69157.15,0],[Date.UTC(2021,11,17),861,861,0,861,0,7999198313.05,466888.9,0],[Date.UTC(2021,11,18),1353,1353,0,1353,0,7999071015.9,127297.15,0],[Date.UTC(2021,11,19),1033,1033,0,1033,0,7998984635.25,86380.65,0],[Date.UTC(2021,11,20),1753,1753,0,1752,0,7998835588.8,149046.45,0],[Date.UTC(2021,11,21),1828,1828,0,1828,0,7998623067.15,212521.65,0],[Date.UTC(2021,11,22),3012,3012,0,3010,0,7998276568.9,346498.25,0],[Date.UTC(2021,11,23),3373,3373,0,3372,0,7997918778,357790.9,0],[Date.UTC(2021,11,24),1659,1659,0,1657,0,7997521731.2,397046.8,0],[Date.UTC(2021,11,25),818,818,0,817,0,7997256995.65,264735.55,0],[Date.UTC(2021,11,26),473,473,0,471,0,7997035145.95,221849.7,0],[Date.UTC(2021,11,27),823,823,0,818,0,7996617784.35,417361.6,0],[Date.UTC(2021,11,28),1277,1277,0,1275,0,7996223680.65,394103.7,0],[Date.UTC(2021,11,29),852,852,0,847,0,7995730248.75,493431.9,0],[Date.UTC(2021,11,30),748,748,0,748,0,7995325713.1,404535.65,0],[Date.UTC(2021,11,31),372,372,0,371,0,7995066441.95,259271.15,0],[Date.UTC(2022,0,1),351,351,0,350,0,7994854735.4,211706.55,0],[Date.UTC(2022,0,2),604,604,0,604,0,7994546238.1,308497.3,0],[Date.UTC(2022,0,3),820,820,0,819,0,7993755558.8,790679.3,0],[Date.UTC(2022,0,4),839,839,0,839,0,7993019318.3,736240.5,0],[Date.UTC(2022,0,5),437,437,0,436,0,7992751292.9,268025.4,0],[Date.UTC(2022,0,6),611,611,0,608,0,7992111118.3,640174.6,0],[Date.UTC(2022,0,7),291,291,0,291,0,7991937739.5,173378.8,0],[Date.UTC(2022,0,8),308,308,0,307,0,7991766217.95,171521.55,0],[Date.UTC(2022,0,9),811,811,0,811,0,7991262820.55,503397.4,0],[Date.UTC(2022,0,10),994,994,0,993,0,7990572409.95,690410.6,0],]);    
         var plotData2ab_datemax = Date.UTC(2022,0,10);
 
         var strnodatatxt = "<span class='d-block text-center py-5'>No data points found for the current time series.<br>Note: Chart data is updated daily, you may try checking back later</div></span>";
@@ -152,7 +152,7 @@
                     enabled: true
                 },
                 title: {
-                    text: tokensymbol + ' Token Transfers for 0x0b5ebf9bab9b796e9408a8222efa4fbab625313f'
+                    text: tokensymbol + ' Token Transfers for 0x7788d9db565828fd99cfdc32414958587d09ae15'
                 },
                 subtitle: {
                     text: 'Source: BscScan.com'
@@ -373,7 +373,7 @@
                     enabled: true
                 },
                 title: {
-                    text: tokensymbol + ' Token Balance for 0x0b5ebf9bab9b796e9408a8222efa4fbab625313f'
+                    text: tokensymbol + ' Token Balance for 0x7788d9db565828fd99cfdc32414958587d09ae15'
                 },
                 subtitle: {
                     text: 'Source: BscScan.com'
@@ -528,7 +528,7 @@
                     enabled: true
                 },
                 title: {
-                    text: tokensymbol + ' Token Transfers for 0x0b5ebf9bab9b796e9408a8222efa4fbab625313f'
+                    text: tokensymbol + ' Token Transfers for 0x7788d9db565828fd99cfdc32414958587d09ae15'
                 },
                 subtitle: {
                     text: 'Source: BscScan.com'
@@ -678,7 +678,7 @@ Token Transfer Counts</a></li>
 <div style="display: none" id="container_2a">
 <div class="d-md-flex justify-content-between align-items-center mb-3">
 <h4 class="h6 mb-1 mb-md-0">Time Series: Token Transfer Count for User Address</h4>
- <div class="text-secondary">
+<div class="text-secondary">
 <span id="addressdisplay_2a"></span>
 </div>
 </div>
@@ -686,7 +686,7 @@ Token Transfer Counts</a></li>
 <div class="mt-3">
 <div class="content" id="containerchart2a" style="height: 565px; min-width: 300px; display: none"></div>
 </div>
-</div>
+ </div>
 </div>
 <div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tab4-tab">
 <span id="tab4_default_content"></span>
@@ -730,7 +730,7 @@ Token Transfer Counts</a></li>
 </div>
 </div>
 <script src="/assets/vendor/bootstrap/bootstrap.min.js?v=22.1.1.0"></script>
-<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6cc0c4535f6a5c4c',m:'FWi4msXemf4OypKvbz5L2DG3NPRihN_Ikg2eGYYi6lc-1641931600-0-AaodKpTKpWR8MEpEVVnygwcNSs7iERXjEx8/45UrsOo6jsknxHVhjPt2dgkH91I4+qXzy++C4raYxRHP8HzVcZIlR/pGg8LUKE4hCXdozdJKmF23QyxphrGhBUaiZUDp6EKJvw/9L0KfgJSUFLNVaQRy7iuEqRhFCrxKWChz/57CmtNRVDamSM5uxPT1n1vzdwZ4yObxaIzy/SOehbZsG9koC9zkbkAZzzwmpBjhZP/zXNd1z7hzuX5T8TRmkLU5uSlTJstp50P9K1ibweU1rDVaAxvsUAIt3bK9Dd2k6hXT',s:[0xa236b041d9,0xebad25ca46],}})();</script></body>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6cc11c007f0a8226',m:'LdArLt8VVl5debr1AZg2GKq4BLAwRiE5zqm_VUWCuxc-1641935191-0-AcV+2fwDBtZm/tkNhcG415vBMQrPh+IG4JgzaGRf1P6lL+cizJS8C91jvCXlMi850+KA4aIxJuk/7qzDZR5anhX9ppjGnFgM0Xnhg5TMbe64QIkfGYLGGEVBEKBEWV4E7pxfD4EVvaRRMe/DCUhYSbwS7DvKWGAH2677TlEvZfK5kEVkaoxjAFTklqoQBxgf8In4iPVodaS9D5Ye6fmgWoOiYhZi+xTHanpUtQEikszY4qJrpMOX91ZyT+m5IhqgSe9kd9Q93CYtH+aDpoByMmvlFaLR3mSrgwUWmNhOFNL0',s:[0xcd18ede180,0xd5c889407e],}})();</script></body>
 <script type="text/javascript"> 
     $(window).on('load', function () {
         $('#overlay').fadeOut();
