@@ -136,6 +136,7 @@ function App() {
       <nav class="col s12 m12 l12">
         <img src={KARASTAR_LOGO} alt="Karastar logo" />
         <h4 className="title">UMY analytics</h4>
+        <h6>Fan made by: JohnnyJai</h6>
       </nav>
       {loading && <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

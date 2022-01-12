@@ -18,6 +18,12 @@ nav .title {
   margin: 0;
 }
 
+nav h6 {
+  flex-grow: 1;
+  text-align: right;
+  font-style: italic;
+}
+
 .border-table {
   border: 1px solid rgba(0,0,0,0.30);
   border-bottom: 1px solid rgba(0,0,0,0.30) !important;
