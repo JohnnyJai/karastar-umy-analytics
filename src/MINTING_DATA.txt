@@ -5,10 +5,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="format-detection" content="telephone=no">
-<link rel="stylesheet" href="/assets/vendor/font-awesome/css/fontawesome-all.min.css?v=22.1.1.0">
-<link rel="stylesheet" href="/assets/css/theme.min.css?v=22.1.1.0">
-<link rel="stylesheet" href="/assets/css/custom.css?v=22.1.1.0">
-<script src="/assets/vendor/jquery/dist/jquery.min.js?v=22.1.1.0"></script>
+<link rel="stylesheet" href="/assets/vendor/font-awesome/css/fontawesome-all.min.css?v=22.1.2.0">
+<link rel="stylesheet" href="/assets/css/theme.min.css?v=22.1.2.0">
+<link rel="stylesheet" href="/assets/css/custom.css?v=22.1.2.0">
+<script src="/assets/vendor/jquery/dist/jquery.min.js?v=22.1.2.0"></script>
 <style>
          .table.tableformat tr td {
             font-size: 8px !important;
@@ -77,12 +77,12 @@
         }
         
     </style>
-<script src="/assets/highstocks-new/js/highstock.js?v=22.1.1.0"></script>
-<script src="/assets/highcharts-new/js/highcharts-more.js?v=22.1.1.0"></script>
-<script src="/assets/highcharts-module/js/annotations.js?v=22.1.1.0"></script>
-<script src="/assets/highslide/highslide-full.min.js?v=22.1.1.0"></script>
-<script src="/assets/highslide/highslide.config.js?v=22.1.1.0" charset="utf-8"></script>
-<link rel="stylesheet" type="text/css" href="/assets/highslide/highslide.css?v=22.1.1.0" />
+<script src="/assets/highstocks-new/js/highstock.js?v=22.1.2.0"></script>
+<script src="/assets/highcharts-new/js/highcharts-more.js?v=22.1.2.0"></script>
+<script src="/assets/highcharts-module/js/annotations.js?v=22.1.2.0"></script>
+<script src="/assets/highslide/highslide-full.min.js?v=22.1.2.0"></script>
+<script src="/assets/highslide/highslide.config.js?v=22.1.2.0" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="/assets/highslide/highslide.css?v=22.1.2.0" />
 <script type="text/javascript">    
         var tokenname = 'KaraStar UMY';
         var tokensymbol = 'UMY';
@@ -90,14 +90,14 @@
 
         var contractAddress = '0x0522ecfe37ab2bdb5d60a99e08d1e8379bd35c00';
         var address = '0x7788d9db565828fd99cfdc32414958587d09ae15';
-        var current_usd_eth_value = 489.66;
+        var current_usd_eth_value = 491.71;
         var chartHeight = 500;
 
         var plotData = eval([]);
         var plotData_datemax = '';
         
-        var plotData2ab = eval([[Date.UTC(2021,11,1),1,0,1,0,1,8000000000,0,8000000000],[Date.UTC(2021,11,11),1470,1470,0,1352,0,7999898872.5,101127.5,0],[Date.UTC(2021,11,12),1537,1537,0,1535,0,7999842296.2,56576.3,0],[Date.UTC(2021,11,13),682,682,0,682,0,7999808558.85,33737.35,0],[Date.UTC(2021,11,14),521,521,0,521,0,7999769074,39484.85,0],[Date.UTC(2021,11,15),493,493,0,493,0,7999734359.1,34714.9,0],[Date.UTC(2021,11,16),1398,1398,0,1398,0,7999665201.95,69157.15,0],[Date.UTC(2021,11,17),861,861,0,861,0,7999198313.05,466888.9,0],[Date.UTC(2021,11,18),1353,1353,0,1353,0,7999071015.9,127297.15,0],[Date.UTC(2021,11,19),1033,1033,0,1033,0,7998984635.25,86380.65,0],[Date.UTC(2021,11,20),1753,1753,0,1752,0,7998835588.8,149046.45,0],[Date.UTC(2021,11,21),1828,1828,0,1828,0,7998623067.15,212521.65,0],[Date.UTC(2021,11,22),3012,3012,0,3010,0,7998276568.9,346498.25,0],[Date.UTC(2021,11,23),3373,3373,0,3372,0,7997918778,357790.9,0],[Date.UTC(2021,11,24),1659,1659,0,1657,0,7997521731.2,397046.8,0],[Date.UTC(2021,11,25),818,818,0,817,0,7997256995.65,264735.55,0],[Date.UTC(2021,11,26),473,473,0,471,0,7997035145.95,221849.7,0],[Date.UTC(2021,11,27),823,823,0,818,0,7996617784.35,417361.6,0],[Date.UTC(2021,11,28),1277,1277,0,1275,0,7996223680.65,394103.7,0],[Date.UTC(2021,11,29),852,852,0,847,0,7995730248.75,493431.9,0],[Date.UTC(2021,11,30),748,748,0,748,0,7995325713.1,404535.65,0],[Date.UTC(2021,11,31),372,372,0,371,0,7995066441.95,259271.15,0],[Date.UTC(2022,0,1),351,351,0,350,0,7994854735.4,211706.55,0],[Date.UTC(2022,0,2),604,604,0,604,0,7994546238.1,308497.3,0],[Date.UTC(2022,0,3),820,820,0,819,0,7993755558.8,790679.3,0],[Date.UTC(2022,0,4),839,839,0,839,0,7993019318.3,736240.5,0],[Date.UTC(2022,0,5),437,437,0,436,0,7992751292.9,268025.4,0],[Date.UTC(2022,0,6),611,611,0,608,0,7992111118.3,640174.6,0],[Date.UTC(2022,0,7),291,291,0,291,0,7991937739.5,173378.8,0],[Date.UTC(2022,0,8),308,308,0,307,0,7991766217.95,171521.55,0],[Date.UTC(2022,0,9),811,811,0,811,0,7991262820.55,503397.4,0],[Date.UTC(2022,0,10),994,994,0,993,0,7990572409.95,690410.6,0],[Date.UTC(2022,0,11),466,466,0,463,0,7990263128.9,309281.05,0],[Date.UTC(2022,0,12),603,603,0,601,0,7989841568.3,421560.6,0],[Date.UTC(2022,0,13),398,398,0,396,0,7989559634.9,281933.4,0],]);    
-        var plotData2ab_datemax = Date.UTC(2022,0,13);
+        var plotData2ab = eval([[Date.UTC(2021,11,1),1,0,1,0,1,8000000000,0,8000000000],[Date.UTC(2021,11,11),1470,1470,0,1352,0,7999898872.5,101127.5,0],[Date.UTC(2021,11,12),1537,1537,0,1535,0,7999842296.2,56576.3,0],[Date.UTC(2021,11,13),682,682,0,682,0,7999808558.85,33737.35,0],[Date.UTC(2021,11,14),521,521,0,521,0,7999769074,39484.85,0],[Date.UTC(2021,11,15),493,493,0,493,0,7999734359.1,34714.9,0],[Date.UTC(2021,11,16),1398,1398,0,1398,0,7999665201.95,69157.15,0],[Date.UTC(2021,11,17),861,861,0,861,0,7999198313.05,466888.9,0],[Date.UTC(2021,11,18),1353,1353,0,1353,0,7999071015.9,127297.15,0],[Date.UTC(2021,11,19),1033,1033,0,1033,0,7998984635.25,86380.65,0],[Date.UTC(2021,11,20),1753,1753,0,1752,0,7998835588.8,149046.45,0],[Date.UTC(2021,11,21),1828,1828,0,1828,0,7998623067.15,212521.65,0],[Date.UTC(2021,11,22),3012,3012,0,3010,0,7998276568.9,346498.25,0],[Date.UTC(2021,11,23),3373,3373,0,3372,0,7997918778,357790.9,0],[Date.UTC(2021,11,24),1659,1659,0,1657,0,7997521731.2,397046.8,0],[Date.UTC(2021,11,25),818,818,0,817,0,7997256995.65,264735.55,0],[Date.UTC(2021,11,26),473,473,0,471,0,7997035145.95,221849.7,0],[Date.UTC(2021,11,27),823,823,0,818,0,7996617784.35,417361.6,0],[Date.UTC(2021,11,28),1277,1277,0,1275,0,7996223680.65,394103.7,0],[Date.UTC(2021,11,29),852,852,0,847,0,7995730248.75,493431.9,0],[Date.UTC(2021,11,30),748,748,0,748,0,7995325713.1,404535.65,0],[Date.UTC(2021,11,31),372,372,0,371,0,7995066441.95,259271.15,0],[Date.UTC(2022,0,1),351,351,0,350,0,7994854735.4,211706.55,0],[Date.UTC(2022,0,2),604,604,0,604,0,7994546238.1,308497.3,0],[Date.UTC(2022,0,3),820,820,0,819,0,7993755558.8,790679.3,0],[Date.UTC(2022,0,4),839,839,0,839,0,7993019318.3,736240.5,0],[Date.UTC(2022,0,5),437,437,0,436,0,7992751292.9,268025.4,0],[Date.UTC(2022,0,6),611,611,0,608,0,7992111118.3,640174.6,0],[Date.UTC(2022,0,7),291,291,0,291,0,7991937739.5,173378.8,0],[Date.UTC(2022,0,8),308,308,0,307,0,7991766217.95,171521.55,0],[Date.UTC(2022,0,9),811,811,0,811,0,7991262820.55,503397.4,0],[Date.UTC(2022,0,10),994,994,0,993,0,7990572409.95,690410.6,0],[Date.UTC(2022,0,11),466,466,0,463,0,7990263128.9,309281.05,0],[Date.UTC(2022,0,12),603,603,0,601,0,7989841568.3,421560.6,0],[Date.UTC(2022,0,13),398,398,0,396,0,7989559634.9,281933.4,0],[Date.UTC(2022,0,14),1047,1047,0,1046,0,7988771467.4,788167.5,0],]);    
+        var plotData2ab_datemax = Date.UTC(2022,0,14);
 
         var strnodatatxt = "<span class='d-block text-center py-5'>No data points found for the current time series.<br>Note: Chart data is updated daily, you may try checking back later</div></span>";
         var currencySymbol = 'USD';
@@ -729,8 +729,8 @@ Token Transfer Counts</a></li>
 </div>
 </div>
 </div>
-<script src="/assets/vendor/bootstrap/bootstrap.min.js?v=22.1.1.0"></script>
-<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6cdaf1bb3a0d8690',m:'4bSoseZgzZMByj7VOyWqeRiYNyn9QlhymJT4ceTsmf0-1642206089-0-Adofl9UeVmiiJurQ2JDrg0HNps6l1/fJlHDy66u45myUzCDpL3Gak8d/ePvDbZchUeMyOmww2OALX64K9Invr7dz7uzpSgBSnIFnHvnAoAqQ0nmpu/D2OA2qI95Tg5UNkTFfQQ1ZR7v3P85Hgnhcqx87eOiaSUWKVUDQaBt2lpucdJNNM47aIRZW5ZloAZNJmkcLiiATWm9wSkTaFh4rlHhwMB3czAyLOIGNeHiSRCDgXont/s5DhSyso/HHHubXW9wnX0AYwdVsU+2On2Vo5YGuJKIHKfIPoQRvKuYb9t+K',s:[0xd59c9abb35,0x5985c7141b],}})();</script></body>
+<script src="/assets/vendor/bootstrap/bootstrap.min.js?v=22.1.2.0"></script>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6cdcebba69ac6816',m:'M5L9WEpABaO4SOnErAm5daqs7aQAThnjqgz.9iC8f4I-1642226815-0-AWvzt9OGYkDXMf3dqwKt+Pi5XHcQU82IEeXQ7ahoHwKCRlE/lbrkadwljyEAAbMxPBuwe4gYcNxQgafQEWt8XJyYYEn7zec+jav59w7wLvfjPdYjd5hZoDjpBNCDcCugu3bTDyM8X1uFpEKmaiunynlO9vhubch/1eNvbIiSs6NwVgnPqjRn6DkIihPWKPnPLDmmYEhMPjz9m1166hSW1kbi6nPa40bJu+RS5ghJ1J+RmYDzwEoy/JptcqoNMSEmTrHxOr75FnXvPS1ww1vyhrCOsAZ9Q1MDHgvH+uHLrY0Z',s:[0xb59b3b861c,0x6209f1ed53],}})();</script></body>
 <script type="text/javascript"> 
     $(window).on('load', function () {
         $('#overlay').fadeOut();
