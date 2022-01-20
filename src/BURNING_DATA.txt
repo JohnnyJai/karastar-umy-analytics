@@ -5,10 +5,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="format-detection" content="telephone=no">
-<link rel="stylesheet" href="/assets/vendor/font-awesome/css/fontawesome-all.min.css?v=22.1.3.0">
-<link rel="stylesheet" href="/assets/css/theme.min.css?v=22.1.3.0">
-<link rel="stylesheet" href="/assets/css/custom.css?v=22.1.3.0">
-<script src="/assets/vendor/jquery/dist/jquery.min.js?v=22.1.3.0"></script>
+<link rel="stylesheet" href="/assets/vendor/font-awesome/css/fontawesome-all.min.css?v=22.1.3.1">
+<link rel="stylesheet" href="/assets/css/theme.min.css?v=22.1.3.1">
+<link rel="stylesheet" href="/assets/css/custom.css?v=22.1.3.1">
+<script src="/assets/vendor/jquery/dist/jquery.min.js?v=22.1.3.1"></script>
 <style>
          .table.tableformat tr td {
             font-size: 8px !important;
@@ -77,12 +77,12 @@
         }
         
     </style>
-<script src="/assets/highstocks-new/js/highstock.js?v=22.1.3.0"></script>
-<script src="/assets/highcharts-new/js/highcharts-more.js?v=22.1.3.0"></script>
-<script src="/assets/highcharts-module/js/annotations.js?v=22.1.3.0"></script>
-<script src="/assets/highslide/highslide-full.min.js?v=22.1.3.0"></script>
-<script src="/assets/highslide/highslide.config.js?v=22.1.3.0" charset="utf-8"></script>
-<link rel="stylesheet" type="text/css" href="/assets/highslide/highslide.css?v=22.1.3.0" />
+<script src="/assets/highstocks-new/js/highstock.js?v=22.1.3.1"></script>
+<script src="/assets/highcharts-new/js/highcharts-more.js?v=22.1.3.1"></script>
+<script src="/assets/highcharts-module/js/annotations.js?v=22.1.3.1"></script>
+<script src="/assets/highslide/highslide-full.min.js?v=22.1.3.1"></script>
+<script src="/assets/highslide/highslide.config.js?v=22.1.3.1" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="/assets/highslide/highslide.css?v=22.1.3.1" />
 <script type="text/javascript">    
         var tokenname = 'KaraStar UMY';
         var tokensymbol = 'UMY';
@@ -90,7 +90,7 @@
 
         var contractAddress = '0x0522ecfe37ab2bdb5d60a99e08d1e8379bd35c00';
         var address = '0x0b5ebf9bab9b796e9408a8222efa4fbab625313f';
-        var current_usd_eth_value = 472.39;
+        var current_usd_eth_value = 460.53;
         var chartHeight = 500;
 
         var plotData = eval([]);
@@ -729,8 +729,8 @@ Token Transfer Counts</a></li>
 </div>
 </div>
 </div>
-<script src="/assets/vendor/bootstrap/bootstrap.min.js?v=22.1.3.0"></script>
-<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6d061e0158982dbe',m:'GTvP_YMmdmIaCohibYidwH2MkHGOW4X0cqyA1Q.Is.c-1642658790-0-AQIEBWBFLRdgJFyJtjsbLouFVv+OoF6c4poMDpUBBaBic8xGi+Q8WDDnRYVnCUSq34kLpCMEz50QbgJdSsW5dSXObAWgpaSSlgDNdpJqeH2/UQak9x04U/9KYYyhan4weSNC9t1r/LDZ6/ijmxRrM6kykDNwQvR/G69w+CL3GhW1YaTVc7BVYQQo4DTZYpv8eFRDamAZlwYTAOpmWR7oeLtqdNLNV/D59Ou37uzbQwPJZFva+vXEUZxam4fcJlJo/pGduDVvzmQ3TBgRsMX8zGSeOPmzZ3nAJOMPsYna06kG',s:[0xc5e8631c94,0x7f89101057],}})();</script></body>
+<script src="/assets/vendor/bootstrap/bootstrap.min.js?v=22.1.3.1"></script>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6d08309b7cee2ce9',m:'YVR4bpmJmGxaKMhLCcIE9VmMQZL_ZmFuMKMd56_8dio-1642680524-0-AXZDFngfKPqbSlY4WMUIpa5U3PUtR610Jcp6Iu93oCDEAKs7IqS2bN4iQAZcSpFeSvtCBAAMpP+uqTldN6s2nR8Hv9NrCQs0hcnEuEkZEzPYHSoLdforiAIZjY4McNOKKMfD5lAaAidBsKz3eCupLdNJsbtv9XlJogPNBgiGGXk++biwmcLpsMijKiL4gt/2ktsb22hU2/pW/xu/NsbgfdLPBsrD3o7juV2y442DfdwzrJ9147cY6cJhDNk0Rj/MwaN8LX65QsGpd6KsiNsbX9Y+IMWpuBd2AfJPMU8+VDgr',s:[0x34c5deb3e9,0xba0fc9af81],}})();</script></body>
 <script type="text/javascript"> 
     $(window).on('load', function () {
         $('#overlay').fadeOut();
