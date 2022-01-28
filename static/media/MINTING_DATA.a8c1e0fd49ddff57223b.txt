@@ -90,7 +90,7 @@
 
         var contractAddress = '0x0522ecfe37ab2bdb5d60a99e08d1e8379bd35c00';
         var address = '0x7788d9db565828fd99cfdc32414958587d09ae15';
-        var current_usd_eth_value = 391.08;
+        var current_usd_eth_value = 381.63;
         var chartHeight = 500;
 
         var plotData = eval([]);
@@ -721,7 +721,7 @@ Token Transfer Counts</a></li>
 <div class="tab-pane fade" id="tokenChart" role="tabpanel" aria-labelledby="tokenChart-tab">
 <div id="loadingtxframe3">
 <div id="overlay3" class="py-3 text-center">
-<img src="/images/main/loadingblock.svg" alt="Loading" />
+<img src="/images/main/loadingblock.svg" alt="Loading" /> 
 </div>
 </div>
 <div class="table-responsive" style="overflow: auto; -webkit-overflow-scrolling: touch; visibility:hidden;">
@@ -730,7 +730,7 @@ Token Transfer Counts</a></li>
 </div>
 </div>
 <script src="/assets/vendor/bootstrap/bootstrap.min.js?v=22.1.4.0"></script>
-<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6d480a037c007fbb',m:'oLh2gt3aB.lrPutfo2g3AqXj7Gg2JayhBVaAntEBpbA-1643350032-0-AeMBzdppGj1+7tQvRlN2tyR5CRulRvAAwT80HTFjArMYgDt0tfxKBH5C3xyakj+0AlLQo3Vfq/g/9xbnw4FmBG4k/vGtCEU/rovRsH4189wUFEFQSKtc5XY76DeDd9WOwDTjIJ8673ubxcDr71vywCED89i3NRFt7CrV53TbxpXZrCAmCngkT4yNhp5ggBJa5ElDjg/mg160V2BwL6fPBFT7pQ5aWFW53vrwwAx15kluxOKhzorbyhe2yT+ROjgoS5W3l/YRycfGvRiJlhbmGxzpQgL9xv1COnWwaL8dyFIP',s:[0xa50ac453dc,0x59feec5745],}})();</script></body>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6d4a1abb2eb6800b',m:'TyYhIIhkmq7qT_5CZ2KLqJjcbPv9kkhBJZzrqMFQ_fI-1643371688-0-AX4xs2uK6B95O/pt8g/umy9TU1nugDPLufCo035ZI6eaqQHeYFrnAzDYOpfRPfaf4TWI3jSNzqf+a7ld1fVKGIF0Lg4KREoHb4LYMwwmBwjWzikb91WF8m41O9P2rzPhOe0JQEXqdNXtSARW8iwKdOI+sLNRPn7KJcXdzlIzE9bYVVdL/XzzeVqKXUuZwMramUTnQaHuXSa1JWOasuUkNs+AqX61gvzPWLcnXR3W5P9QbZRCOjRhVB5vh7w6XMSlmBoiR0YOwwnkVw5KHe5IAWQUaKNWhfkO4qZLmAQ6/Tr8',s:[0x3f9156762f,0xb129248883],}})();</script></body>
 <script type="text/javascript"> 
     $(window).on('load', function () {
         $('#overlay').fadeOut();
