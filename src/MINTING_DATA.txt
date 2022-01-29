@@ -90,7 +90,7 @@
 
         var contractAddress = '0x0522ecfe37ab2bdb5d60a99e08d1e8379bd35c00';
         var address = '0x7788d9db565828fd99cfdc32414958587d09ae15';
-        var current_usd_eth_value = 391.6;
+        var current_usd_eth_value = 383.85;
         var chartHeight = 500;
 
         var plotData = eval([]);
@@ -667,7 +667,7 @@
 Token Balance</a></li>
 <li id="li_tab4" class="nav-item">
 <a class="nav-link" href="#tab4" data-toggle="tab">
- Token Transfer Amounts<sup><span class="badge badge-success ml-1"> New</span></sup></a></li>
+Token Transfer Amounts<sup><span class="badge badge-success ml-1"> New</span></sup></a></li>
 <li id="li_tab2" class="nav-item">
 <a class="nav-link" href="#tab2" data-toggle="tab">
 Token Transfer Counts</a></li>
@@ -721,7 +721,7 @@ Token Transfer Counts</a></li>
 <div class="tab-pane fade" id="tokenChart" role="tabpanel" aria-labelledby="tokenChart-tab">
 <div id="loadingtxframe3">
 <div id="overlay3" class="py-3 text-center">
-<img src="/images/main/loadingblock.svg" alt="Loading" />
+ <img src="/images/main/loadingblock.svg" alt="Loading" />
 </div>
 </div>
 <div class="table-responsive" style="overflow: auto; -webkit-overflow-scrolling: touch; visibility:hidden;">
@@ -730,7 +730,7 @@ Token Transfer Counts</a></li>
 </div>
 </div>
 <script src="/assets/vendor/bootstrap/bootstrap.min.js?v=22.1.4.0"></script>
-<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6d5256f96f12681d',m:'fOBS2kzIrUKK7szP7QRp09Ykkq5mlyMUBYyEo2d7r8s-1643458041-0-AXtQO58pBrBTtJGgwUg3CGV3wP1BCRNSwEAWsCBB4FiONqDItOvpSkPJ6nOp+b/QUtl271STyufCANZycg/nhL5jaMnvZxCH/XnmK4+VDJbcfW6T75ljXwgwE2N9pI8+cyR8kHc5Y0m9Nt8W28MmejhyXNFO3lRvyG/mPKRfBB1/HSJub+egMaE+xiH00bRCiRlpw7C77FpVNb+fw5kOgIzVvzKH4JO1dLZWAO2qdEYUL1MU+tIISuNXKamCpWc87C0iSJAgeIMZA9DjcVgZbDdZM6ImUZt6DrLcNYPNfIGJ',s:[0xafefa9e745,0x97f59065fa],}})();</script></body>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6d54678eeb8f39a7',m:'SyZ8LQHPX5a.HCG_juVaUCkqW1KlA07D4G9PTz_39Wc-1643479692-0-ATuR/z/mGXALXjsk6cCp0/P2AoquH6pwcsdTKOeVN2NkqNMXT/Z4ZjcUIBSBLmebMScxYX9fIKNJFGJQCt8uMEXDDNwc9YBa0nSoWnvBYP/AhhFEIIFkMOlT5sqJlOApEp3GEZi5AzrJ4/bwuhS+mUiR0qgkOrfVL+dTFDbI325rcfybqYBhVzXWp0/Ws+/T0mZ4ivWR6LLyK2rJ9Kx5NbjoJyaSSD/xrGls56yl8i1CCDPXY40szMpicj0/hSnbx7iYzkxbTLcVxfU3eu4S4GTANg5HlqscAwjYgxnzFNcB',s:[0x38e80a98f2,0x8c01129900],}})();</script></body>
 <script type="text/javascript"> 
     $(window).on('load', function () {
         $('#overlay').fadeOut();
