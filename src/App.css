@@ -23,27 +23,20 @@ nav h6 {
   text-align: right;
   font-style: italic;
 }
-
-.border-table {
-  border: 1px solid rgba(0,0,0,0.30);
-  border-bottom: 1px solid rgba(0,0,0,0.30) !important;
-  border-collapse: collapse;
-  margin-top: 20px;
+.loader {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
 }
 
-tbody {
-  display: block;
-  height: calc(100vh - 200px);
-  overflow: auto;
+.table th {
+  font-weight: bold;
 }
-thead, tbody tr {
-  display: table;
-  width: 100%;
-  table-layout: fixed;
-}
-thead {
-  width: calc(100% - 1em)
-}
-table {
-  width: 100%;
+
+.table th, .table td {
+  font-size: 1rem !important;
 }
