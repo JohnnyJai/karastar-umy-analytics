@@ -150,8 +150,8 @@ function App() {
                   }
                 />
                 <Legend />
-                <Bar dataKey="burn" stackId="a" fill="#e57373" />
-                <Bar dataKey="mint" stackId="a" fill="#81c784" />
+                <Bar dataKey="burn" fill="#e57373" />
+                <Bar dataKey="mint" fill="#81c784" />
               </BarChart>
             </ResponsiveContainer>
             <ResponsiveContainer width="100%" height="45%">
