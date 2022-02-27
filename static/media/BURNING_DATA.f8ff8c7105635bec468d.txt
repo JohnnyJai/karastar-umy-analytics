@@ -90,7 +90,7 @@
 
         var contractAddress = '0x0522ecfe37ab2bdb5d60a99e08d1e8379bd35c00';
         var address = '0x0b5ebf9bab9b796e9408a8222efa4fbab625313f';
-        var current_usd_eth_value = 379.94;
+        var current_usd_eth_value = 370.47;
         var chartHeight = 500;
 
         var plotData = eval([]);
@@ -675,7 +675,7 @@ Token Transfer Counts</a></li>
 <div class="tab-content card border p-3 mb-4">
 <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
 <span id="tab2_default_content"></span>
-<div style="display: none" id="container_2a">
+ <div style="display: none" id="container_2a">
 <div class="d-md-flex justify-content-between align-items-center mb-3">
 <h4 class="h6 mb-1 mb-md-0">Time Series: Token Transfer Count for User Address</h4>
 <div class="text-secondary">
@@ -730,7 +730,7 @@ Token Transfer Counts</a></li>
 </div>
 </div>
 <script src="/assets/vendor/bootstrap/bootstrap.min.js?v=22.1.5.1"></script>
-<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6e414d355bfe680b',m:'HSIKOBOlr9U6onFCSngljtdJ4P30rFtSwTCX0nvKN88-1645963738-0-Ad+6fW18S8y4wT3r5M9wBYts6L+2DYPEvs5fMypbSBnfeE+EgcjSszd4FPxrqOmVn+bnj+JdGJ56PgcxOLCTH1fY+aSsC41ZMr8AvK+IOHEqJ9zfOdsZuPFJWXNE1x/61rjWOn1xDxItNrc/HbYD+LtNiDHqd8JsiwGdLop8QLKkshN4WPSBc5vjZMIknaKu+nl/sQU7ON+VU+9X4xIzRSRIyI14V3pZ7wF74qEAn0hkA0AqM9KVRLDe0ThE2MXsYVudRH4VvVTft6rai52ZJ3asLgYY6X26azgU5LJXVxGk',s:[0x05fab5cab5,0x26de718bfe],}})();</script></body>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6e4359753f5786fe',m:'l51rS0O2zI8FD48kF.SnUFLkzfi2liFn13hgVqkiHNo-1645985211-0-Af/cRdHcjf59TST9/iISDcVAUJrSzbkVg1CNvfqdcRMaZcZABn4LNcp+rCbFZAfFyBK0h9bsPOk+iJ7UktSUCtyehP4ifHKRWy/oezFf5s/fgfdg2QvX5szX4pRaCCxKO+MmnRE3FkxNOrmaSIWfPfpZJksHW+n47m1/maerE9fTuY/3/d3BiUTWG5IgqHULNdl5uotpdHtBgi7eXfm2NB0eDVDBSGoVEDdP2GxSmFZoRc954eCbVElb4xkfgQChE/PG+CoioJRmzUR35nI7Mo0ZLVW19/lyPwb62pSL3oHn',s:[0x53506bb663,0xd9b4c970b2],}})();</script></body>
 <script type="text/javascript"> 
     $(window).on('load', function () {
         $('#overlay').fadeOut();
