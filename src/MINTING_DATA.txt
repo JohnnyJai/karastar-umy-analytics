@@ -90,7 +90,7 @@
 
         var contractAddress = '0x0522ecfe37ab2bdb5d60a99e08d1e8379bd35c00';
         var address = '0x7788d9db565828fd99cfdc32414958587d09ae15';
-        var current_usd_eth_value = 374.45;
+        var current_usd_eth_value = 376.04;
         var chartHeight = 500;
 
         var plotData = eval([]);
@@ -692,7 +692,7 @@ Token Transfer Counts</a></li>
 <span id="tab4_default_content"></span>
 <div style="display: none" id="container_2c">
 <div class="d-md-flex justify-content-between align-items-center mb-3">
-<h4 class="h6 mb-1 mb-md-0">Time Series: Token Transfer Amounts for User Address</h4>
+ <h4 class="h6 mb-1 mb-md-0">Time Series: Token Transfer Amounts for User Address</h4>
 <div class="text-secondary">
 <span id="addressdisplay_2c"></span>
 </div>
@@ -730,7 +730,7 @@ Token Transfer Counts</a></li>
 </div>
 </div>
 <script src="/assets/vendor/bootstrap/bootstrap.min.js?v=22.3.2.0"></script>
-<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6eaa59a498388f38',m:'7YzB6Gtsq7PcSRYp0u9mdS66AJoq7isIu._hlmeZUuc-1647065252-0-ARi6tSVAtmQN/QOt6ThDtx08ZIJnecvmKZS1/k9agj+LnNNRwlU3tuj0X+gcI+ptNaWHI+ghjguMDvrIU7OQn0d8975GxERy6khqW0fBn1ZZQILh3JS88+7DUgNRsg0fBwsEfD+VyAlr9nLaX5Y2Hgiu0yKnc4E8Hb50Fc8Iz2uFNTsETCkQVxmKnlDDQiLPZylG9zji/wSDN7nodxW0WQ6fRyFIcad4yfNGxbqMFFAyvWRwAFrQxEjjqcJUyKF5PO3t46YoNr3ikTSF3qnkwPL3ITYjIXuEDRVYYKwyi7kC',s:[0x5b3a8fb580,0x8e4610c91a],}})();</script></body>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6eac6b99ac5c6420',m:'zIOkfyY1MTn46kb9VYLhIAVim_hBh0VApWvZ2qXOL18-1647086959-0-AZYB88Zw8UUUvrGgIbvnGikzF8RSVWvvuvHBG21eZ8mzioDpeVgH4rVKysjYXyJ0dZFWVmQuvammIL9UmDZuUBijYdb3iIuPAdfj12Nw7sjBfo96Z8u5J1xcTXq6C+0mxgvuZzakqr+r47UKx+9rwg+Y18G6A/V04RZfUcDQMwBO/heAGA1ZL/kfUJP2fajWBOP+TcRDl2mYyBkd6/5+5q8d6hpAmbK9sQXV0MkZeHkz4O8o/Renl/JgWmOK38ORCEoyBJnhY1d3u/zcXOP/H/si8ehqRHRA1EX+bLAgdK49',s:[0x665ecbd269,0x35b4a7bbc7],}})();</script></body>
 <script type="text/javascript"> 
     $(window).on('load', function () {
         $('#overlay').fadeOut();
