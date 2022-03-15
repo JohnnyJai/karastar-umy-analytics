@@ -90,7 +90,7 @@
 
         var contractAddress = '0x0522ecfe37ab2bdb5d60a99e08d1e8379bd35c00';
         var address = '0x0b5ebf9bab9b796e9408a8222efa4fbab625313f';
-        var current_usd_eth_value = 366.32;
+        var current_usd_eth_value = 365.01;
         var chartHeight = 500;
 
         var plotData = eval([]);
@@ -674,7 +674,7 @@ Token Transfer Counts</a></li>
 </ul>
 <div class="tab-content card border p-3 mb-4">
 <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
- <span id="tab2_default_content"></span>
+<span id="tab2_default_content"></span>
 <div style="display: none" id="container_2a">
 <div class="d-md-flex justify-content-between align-items-center mb-3">
 <h4 class="h6 mb-1 mb-md-0">Time Series: Token Transfer Count for User Address</h4>
@@ -730,7 +730,7 @@ Token Transfer Counts</a></li>
 </div>
 </div>
 <script src="/assets/vendor/bootstrap/bootstrap.min.js?v=22.3.2.0"></script>
-<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6ec312a708fc6450',m:'lqPn1rtWFMzXnyxiy8PlLmeB1FL_8e65Z2GXsJBgmCk-1647324488-0-ASIMYziEhT55fbnzMSqWNb0htC6igBugio7m0j7SrwpzKt/MbtcpmXP/NZ6aY/a0zjCQHy6npoc73UfymdX2SpreW1gR/bO53B1s1rJXSXic9/nRa8FcXSsbbfBm53+9XJZ6bS7o10JCcPZ9nCvl5vyeGLLlGL4GzTUBJQA7nlLIa3bJCumUAa8AqO/p8ndJR41NaLzo4ICyv9q3nuj2TccvTEktFlhtiG7Ugj7GQSSgxbryRc7qh2aVTV2Upy63GfIjdqdy+tm7sqwEsY5ofpwZmeriV2E0eOM7PPusZEg+',s:[0xef1df7c640,0x741fbe85ee],}})();</script></body>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6ec5254f2d8e8704',m:'OOaIjimHRT8s_ux8LeDj8Vbzr8q1ql.s2Ay9yYnKQ5I-1647346224-0-AZFC3CoggQcBgUuKnryGWqm540UM+3nW89ioPPRgaCko7zrfHYg9/ubiduJ+imH7GUtdGurlYpp1kp0QHNIPf5+Y5eG8BMneq56/r5JBgkPMBF6Bn5y0cfB+zGyZUae/gN+flr9XBzATDxcegO4eLTDQpH4N54kUqkSTJQdJqO4hGWpaexwoCjiKbjGGlQh8udWt7LrFnze+7SQ8OJEt08BZ5ExSkDiOzRgjtxXz2QrGBvAeDX9R5w/7PA8nOLCJUhYhLHeYAXlbzozy468mNdU2h4kIMxsyX+u410DuJzrc',s:[0xe79009c176,0x9cf464a899],}})();</script></body>
 <script type="text/javascript"> 
     $(window).on('load', function () {
         $('#overlay').fadeOut();
