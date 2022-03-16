@@ -89,8 +89,8 @@
         var tokenimage = '';
 
         var contractAddress = '0x0522ecfe37ab2bdb5d60a99e08d1e8379bd35c00';
-        var address = '0x0b5ebf9bab9b796e9408a8222efa4fbab625313f';
-        var current_usd_eth_value = 370.99;
+        var address = '0x7788d9db565828fd99cfdc32414958587d09ae15';
+        var current_usd_eth_value = 371.35;
         var chartHeight = 500;
 
         var plotData = eval([]);
@@ -152,7 +152,7 @@
                     enabled: true
                 },
                 title: {
-                    text: tokensymbol + ' Token Transfers for 0x0b5ebf9bab9b796e9408a8222efa4fbab625313f'
+                    text: tokensymbol + ' Token Transfers for 0x7788d9db565828fd99cfdc32414958587d09ae15'
                 },
                 subtitle: {
                     text: 'Source: BscScan.com'
@@ -373,7 +373,7 @@
                     enabled: true
                 },
                 title: {
-                    text: tokensymbol + ' Token Balance for 0x0b5ebf9bab9b796e9408a8222efa4fbab625313f'
+                    text: tokensymbol + ' Token Balance for 0x7788d9db565828fd99cfdc32414958587d09ae15'
                 },
                 subtitle: {
                     text: 'Source: BscScan.com'
@@ -528,7 +528,7 @@
                     enabled: true
                 },
                 title: {
-                    text: tokensymbol + ' Token Transfers for 0x0b5ebf9bab9b796e9408a8222efa4fbab625313f'
+                    text: tokensymbol + ' Token Transfers for 0x7788d9db565828fd99cfdc32414958587d09ae15'
                 },
                 subtitle: {
                     text: 'Source: BscScan.com'
@@ -730,7 +730,7 @@ Token Transfer Counts</a></li>
 </div>
 </div>
 <script src="/assets/vendor/bootstrap/bootstrap.min.js?v=22.3.2.0"></script>
-<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6ec730e9ad7b6fef',m:'lD0WtNPA7uiRaGvd5WQ6s4rgcuS1sP_GswU4tw6LWnY-1647367716-0-AcgKaoY3SPaUqkG/UGjycpi4yhTL+aMZmayOMnZ6Ez8/2eWqdmI4v5FbZDegoVOeEaXqb/yzw7bCOE6bAYDFqSG1deqNsOVPI13kNpbTi8UevYukfuxyGoxWC2EXqvsO20tf0KbBCAN5dWlV0T2Qrnd5g3wbZ/tTH1XVfvdp9rJpq8/XRBxFVt8ZsKHM43WgvUPKGn4ugxDzoA12lL4k8NH1/Bat8mb2IpZ+8yB7Wvb6xwd5z1eApOxPP9EF6ydJMzhPGcUS2PIFHfaJasP09IR1Xl5/7osORN4n14x9bZrX',s:[0xd8f179b66b,0x4f7a44f9e7],}})();</script></body>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6ec95d0aec8597f3',m:'N90kIlOSGe_z.d5Iiouozka19Ck6T6.cMFYc5hPeTX4-1647390495-0-ARbKtG7M5F4MVNvV6lFCAhT2skpPMgVTSyhrO3JWGEaMAi6TjFjUjzt3vE07CuaDvVE0qh+2QuFcJSu0dEpXqpwVNtk4uYBZN+ySR2F6JhmWbWxd0Q4xm03QyZN/3PvsCkH0w3T6hVAP7ZJ48+l6rbMFpF944/VVKCpvreCXQTzKuW8JemkMhDDLvMyr090LdtGepzo88NQxSduNbfb345P8fTVxBLcOBvC4ZjSxWMDpf/l4ErH3TFBiVQ1Qu69gG25eDbOiTJxpaVAiz87sDoTyvAr8Do+uyUXFGGXDYQDI',s:[0xa63a74a800,0x1dc14e31d5],}})();</script></body>
 <script type="text/javascript"> 
     $(window).on('load', function () {
         $('#overlay').fadeOut();
