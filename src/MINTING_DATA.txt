@@ -91,7 +91,7 @@
 
         var contractAddress = '0x0522ecfe37ab2bdb5d60a99e08d1e8379bd35c00';
         var address = '0x7788d9db565828fd99cfdc32414958587d09ae15';
-        var current_usd_eth_value = 390.99;
+        var current_usd_eth_value = 394.39;
         var chartHeight = 500;
 
         var plotData = eval([]);
@@ -673,7 +673,7 @@ Token Transfer Amounts<sup><span class="badge badge-success ml-1"> New</span></s
 <a class="nav-link" href="#tab2" data-toggle="tab">
 Token Transfer Counts</a></li>
 </ul>
-<div class="tab-content card border p-3 mb-4">
+ <div class="tab-content card border p-3 mb-4">
 <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
 <span id="tab2_default_content"></span>
 <div style="display: none" id="container_2a">
@@ -731,7 +731,7 @@ Token Transfer Counts</a></li>
 </div>
 </div>
 <script src="/assets/vendor/bootstrap/bootstrap.min.js?v=22.3.2.0"></script>
-<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6ef483d7bf026fd4',m:'_yMgYELxUtRNRsFVT7SF7SfZ23Sim7VNHoE0wFAvoEY-1647842927-0-AbGiqY9ytIosYLsNynvNZSY6Fbd5ljrNrITuk2yFiB+GQAlYTvdceTqrPixQWaKezX47zcr6BuX257JLQ1Ni3FBfnpVC/NkR9evgrf+kk1rAHQkWTkKPN1QLP3HE++jIOLrFDHBpVy/Wpb/JSUpBha/RkBYW35gAnZqBwLl8WACMXJfsRmt4e5OxCdrnAxwZDgZW3k5V79SwKahM8lZu7oMipfkMBz76urEdC8VFXwbfqH3gfP4SSog7m3hLAY+V/OJpF53ZmubqGf+5bpSz9SYQYYKjsYKUYCu2BzsSLazD',s:[0x6cacb6a035,0x48b7e93cc6],}})();</script></body>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6ef695fcdc109657',m:'EEe46si8TFx9atUgwS8XfIlO2UdT12kNen6go_sLO4M-1647864642-0-ARySl8HZNiVr54nE4Jou3cx2cqHyKuGoaVVZjKohO/IPJtcIWshSAv3uBAW2r+HIUzEqYDbgEZIQmTbGiyEk2ybqu2JhXyssWwt2mbYYjfMm66UJu1hUN8hAo+4+2gghGoP4Aawx7+luxJSFz87mUW9l6NLVGCgEGO4Uhq0UIKs0wqxAeAA/sjRAFIsI444NzjuKFLGfc6BPrKD7LkbIHz3t+7K+B+97gZRvpSbiXIYjMm+eETMbzDkYiCBB519Jcvl5QlyBS2zxyuYxdMQYAnCBQcdslZDB31p6IFqXL3qC',s:[0xd62a145ffd,0x0836f48bb8],}})();</script></body>
 <script type="text/javascript"> 
     $(window).on('load', function () {
         $('#overlay').fadeOut();
