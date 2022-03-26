@@ -91,7 +91,7 @@
 
         var contractAddress = '0x0522ecfe37ab2bdb5d60a99e08d1e8379bd35c00';
         var address = '0x0b5ebf9bab9b796e9408a8222efa4fbab625313f';
-        var current_usd_eth_value = 410.2;
+        var current_usd_eth_value = 411.47;
         var chartHeight = 500;
 
         var plotData = eval([]);
@@ -731,7 +731,7 @@ Token Transfer Counts</a></li>
 </div>
 </div>
 <script src="/assets/vendor/bootstrap/bootstrap.min.js?v=22.3.3.0"></script>
-<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6f19967758ed6422',m:'i3StopEPVLNRvAwvhtlbcAYaYdZwyr8fpaHkg8BzyNY-1648231663-0-AavAZ9gtvAxK2VS88uiOF/fUyFB1HZiY9VZxvh30C/IaINImj1a/z3g+EVkn1Thr99eozB2SqHNr34fIoFnTWlObfpnMbzctLj8mQRgbfd+gkQEZcDv3WrmZwu4DrooE78hcdOa6RYlFa57Kbix8AWSRUWUfQkjhvqx1Kb+naCzCKArcRpRS58W4eaRLEvqWCouk5pm7yP8VDIQK9SPkpwbyBoEwGEZ5X9YXcn1Be1h7Py+9CMoNfoAVrQVx9E1108sAquxtCSOkmRg2T3KFZT9oE0+DIeuZ1Wsjv0fcCA48',s:[0x2227a06d96,0xc1253dc822],}})();</script></body>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6f1bc3b4dbbc6326',m:'GI6_dZ6_0CwxTOx8f0tDzGcmcD461Ustytfak2T4jlc-1648254488-0-AYwepOASz9qA6LUyWR/GkbovFZr8f3PbX4RC3pgXy8y3pIgPUUgmZCbRfNSxOTT2l80Rqu+8PieLGvl3fub7+T98S+eO3YrRdA+oV+g/ZJslgusCgNbEMT47YXWqnsLu5tEA1VtHJBmfMNBBpIud+027phtXf9OcNUKO861t48D73uQEesZiZUUyujeIv/LPDNT8eXyL5N0j9OZyUJdoDUPtszn3SBUleETMsH/YIV2SFDdAtQbjAjXf3nFY9GYAKpO2UC+4piNCx703PP8xE3Rft/hdE9nikdmaZ0+b/4lE',s:[0x479f55a4a2,0x5207bbb51e],}})();</script></body>
 <script type="text/javascript"> 
     $(window).on('load', function () {
         $('#overlay').fadeOut();
