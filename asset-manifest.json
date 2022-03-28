@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/karastar-umy-analytics/static/css/main.c6c0da1c.css",
-    "main.js": "/karastar-umy-analytics/static/js/main.53cf9897.js",
+    "main.js": "/karastar-umy-analytics/static/js/main.5a691f23.js",
     "static/media/karastar_logo.png": "/karastar-umy-analytics/static/media/karastar_logo.b62be6bd7b6d7a714559.png",
-    "static/media/MINTING_DATA.txt": "/karastar-umy-analytics/static/media/MINTING_DATA.3ef3312e6805acb8890f.txt",
-    "static/media/BURNING_DATA.txt": "/karastar-umy-analytics/static/media/BURNING_DATA.56c34bb11293d7d2c07a.txt",
+    "static/media/MINTING_DATA.txt": "/karastar-umy-analytics/static/media/MINTING_DATA.8ea951d2602f2573b37f.txt",
+    "static/media/BURNING_DATA.txt": "/karastar-umy-analytics/static/media/BURNING_DATA.162cbb1dbfba40abea63.txt",
     "index.html": "/karastar-umy-analytics/index.html",
     "main.c6c0da1c.css.map": "/karastar-umy-analytics/static/css/main.c6c0da1c.css.map",
-    "main.53cf9897.js.map": "/karastar-umy-analytics/static/js/main.53cf9897.js.map"
+    "main.5a691f23.js.map": "/karastar-umy-analytics/static/js/main.5a691f23.js.map"
   },
   "entrypoints": [
     "static/css/main.c6c0da1c.css",
-    "static/js/main.53cf9897.js"
+    "static/js/main.5a691f23.js"
   ]
 }
