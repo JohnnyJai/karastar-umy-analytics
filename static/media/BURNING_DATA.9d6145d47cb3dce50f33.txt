@@ -90,8 +90,8 @@
         var tokenimage = '';
 
         var contractAddress = '0x0522ecfe37ab2bdb5d60a99e08d1e8379bd35c00';
-        var address = '0x7788d9db565828fd99cfdc32414958587d09ae15';
-        var current_usd_eth_value = 436.76;
+        var address = '0x0b5ebf9bab9b796e9408a8222efa4fbab625313f';
+        var current_usd_eth_value = 435.41;
         var chartHeight = 500;
 
         var plotData = eval([]);
@@ -153,7 +153,7 @@
                     enabled: true
                 },
                 title: {
-                    text: tokensymbol + ' Token Transfers for 0x7788d9db565828fd99cfdc32414958587d09ae15'
+                    text: tokensymbol + ' Token Transfers for 0x0b5ebf9bab9b796e9408a8222efa4fbab625313f'
                 },
                 subtitle: {
                     text: 'Source: BscScan.com'
@@ -374,7 +374,7 @@
                     enabled: true
                 },
                 title: {
-                    text: tokensymbol + ' Token Balance for 0x7788d9db565828fd99cfdc32414958587d09ae15'
+                    text: tokensymbol + ' Token Balance for 0x0b5ebf9bab9b796e9408a8222efa4fbab625313f'
                 },
                 subtitle: {
                     text: 'Source: BscScan.com'
@@ -529,7 +529,7 @@
                     enabled: true
                 },
                 title: {
-                    text: tokensymbol + ' Token Transfers for 0x7788d9db565828fd99cfdc32414958587d09ae15'
+                    text: tokensymbol + ' Token Transfers for 0x0b5ebf9bab9b796e9408a8222efa4fbab625313f'
                 },
                 subtitle: {
                     text: 'Source: BscScan.com'
@@ -723,7 +723,7 @@ Token Transfer Counts</a></li>
 <div id="loadingtxframe3">
 <div id="overlay3" class="py-3 text-center">
 <img src="/images/main/loadingblock.svg" alt="Loading" />
-</div>
+</div> 
 </div>
 <div class="table-responsive" style="overflow: auto; -webkit-overflow-scrolling: touch; visibility:hidden;">
 <iframe width="100%" id="tokenchartiframe" src="" frameborder="0" scrolling="yes" style="height: 510px; min-width: 300px;"></iframe>
@@ -731,7 +731,7 @@ Token Transfer Counts</a></li>
 </div>
 </div>
 <script src="/assets/vendor/bootstrap/bootstrap.min.js?v=22.3.5.0"></script>
-<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6f86e876ee9c9831',m:'8DfxwSh1xWoqb2wGHfb4W3BDdclF.z2PdsXUhKixdvc-1649378014-0-AdpKJRt0setDwE7V6l3EQ5Y5i6LHwaMd3bFgIO2FvYn1gLFR4RL+XgYL14nM7mMBVnIvsxox/Jggsmm5DRm+Es37EUO3w2ZQ4j5CYl+csEhRbVL5KmGtTJWwyh544t2gnX16Ud6l9sdhsK/FZHCPGumP4b1VyojUpnoNX+VPgxz17l7wL3DML5Wa7Y2oT2NebBpcW7K3xO2K40BzoEVEnInA6N+Vczpa/Om2oLcqafTGXpH4oPlITvjjLz7b0RgyDg6wooARMe5/vJgl6SvNO8+Lcp9cvm+ilMrPRDcfTq50',s:[0x4260475d3f,0xfc157c9da7],}})();</script></body>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6f88d43fc9ec8205',m:'j5AdfVTlN3ld_DPqz0VycVP7nU0_frUW2.QawGaiFzU-1649398158-0-AaJsf2BWZgndV5H1vcnwd7x5VM9u6C6khnGcOXFbTq2TiW7QpUDqN/pUz0j6EKe6yDBLptwIRHgoFL6wcwJWlGlbFagYDNx+knBjZTZsOXZMjSyU43bhvJ8UwhAY0v0QwVAqToOkVxjDhngwd0Lu9hOJW87bftVoPeWTBa67yXLuQGACdU2FtwEAXgLs5PY9aewygiQRLUyhq1cXYf4uszfd5fpZCBYFTQkuDsQtV9zNAfS/Z7O1aoGfS1Dd9s+tny0TPF4uviJKOtRydgf1w78AlzkUYJTW8ZtYnzdVGd7q',s:[0xdeca0b266b,0xa2abb3490c],}})();</script></body>
 <script type="text/javascript"> 
     $(window).on('load', function () {
         $('#overlay').fadeOut();
