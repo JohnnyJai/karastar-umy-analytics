@@ -91,7 +91,7 @@
 
         var contractAddress = '0x0522ecfe37ab2bdb5d60a99e08d1e8379bd35c00';
         var address = '0x0b5ebf9bab9b796e9408a8222efa4fbab625313f';
-        var current_usd_eth_value = 426.35;
+        var current_usd_eth_value = 423.12;
         var chartHeight = 500;
 
         var plotData = eval([]);
@@ -644,7 +644,7 @@
 
           
     </script>
-<script async src='/cdn-cgi/challenge-platform/h/g/scripts/invisible.js?ts=1649440800'></script></head>
+<script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head>
 <body id="body">
 <style>
         #overlay {
@@ -724,14 +724,14 @@ Token Transfer Counts</a></li>
 <div id="overlay3" class="py-3 text-center">
 <img src="/images/main/loadingblock.svg" alt="Loading" />
 </div>
- </div>
+</div>
 <div class="table-responsive" style="overflow: auto; -webkit-overflow-scrolling: touch; visibility:hidden;">
 <iframe width="100%" id="tokenchartiframe" src="" frameborder="0" scrolling="yes" style="height: 510px; min-width: 300px;"></iframe>
 </div>
 </div>
 </div>
 <script src="/assets/vendor/bootstrap/bootstrap.min.js?v=22.3.5.0"></script>
-<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6f8cf1f66c4e57b8',m:'u4qSXD1.sO_3czZnYCZwn6PwUew7bOrS11jaOu4ZKXs-1649441318-0-ARDZ0dtVrGB0vBZjCNPbSW83WSGurD0BlKMJbG6TUj3D1DunrErnQkNdQbsPyrwG4yZlnj9w88fFS8Zp/TFjndeC+AI8vzh/8RHrTMFZSM/74D+zGqm3axMCF2Ce8mmvrAode2MZuLqNYQne/KHL4ra8QUlwsLZj17riv2xO5L7x86fkLvQ/dFbrKNV+kCXIm0bn9TRCIegIfNqEcE8z63y35KnWmsRTEqM5zsA23Gy/H9nFHAEIRyM8PWkoUHz/GQPfWdy3H6P4WmfDSyOvjek2PzWOnKyUgIUHdDGIs0C+',s:[0x9744eb2bf3,0x8c0b60e1cf],u:'/cdn-cgi/challenge-platform/h/g'}})();</script></body>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6f8f21590fda82e0',m:'Ps7Ax6cc44OPuPGkSxOCQWSYkGyoKL1ooYXEhryTk3g-1649464230-0-Ae6afoYoO1h8CektHGAVEPUM4EFX9GT2qGFd5ukZs1N8z/arz8on2D+ye3mP+A49xiWKrjFggZc1n9nILBUdcqo1rgDizbb5J5XjjSsftmNWeKusFHBd0WQ/XqoHVoPMWFUL1TM6weKAaXvuenMC6qJFI2xQC8XVGdEpxGggUaCl5zLjkGhV5bTefKFB0t45ggUB3W6Hs0FZWDO2RJXBFJSc44RK7d+mTWoLIQDr6JZqTnzOIBK/4bhWllVOPzz2YwP/rFT04CQUpRbSOBm+hAzwkG2Ghd89E6kQJJUgn9LI',s:[0x8371875dd2,0xe07ede2faf],}})();</script></body>
 <script type="text/javascript"> 
     $(window).on('load', function () {
         $('#overlay').fadeOut();
