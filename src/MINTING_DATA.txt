@@ -1,149 +1,874 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
+
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
-  <meta name="robots" content="noindex, nofollow" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Just a moment...</title>
-  <style type="text/css">
-    html, body {width: 100%; height: 100%; margin: 0; padding: 0;}
-    body {background-color: #ffffff; color: #000000; font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, "Helvetica Neue",Arial, sans-serif; font-size: 16px; line-height: 1.7em;-webkit-font-smoothing: antialiased;}
-    h1 { text-align: center; font-weight:700; margin: 16px 0; font-size: 32px; color:#000000; line-height: 1.25;}
-    p {font-size: 20px; font-weight: 400; margin: 8px 0;}
-    p, .attribution, {text-align: center;}
-    #spinner {margin: 0 auto 30px auto; display: block;}
-    .attribution {margin-top: 32px;}
-    @keyframes fader     { 0% {opacity: 0.2;} 50% {opacity: 1.0;} 100% {opacity: 0.2;} }
-    @-webkit-keyframes fader { 0% {opacity: 0.2;} 50% {opacity: 1.0;} 100% {opacity: 0.2;} }
-    #cf-bubbles > .bubbles { animation: fader 1.6s infinite;}
-    #cf-bubbles > .bubbles:nth-child(2) { animation-delay: .2s;}
-    #cf-bubbles > .bubbles:nth-child(3) { animation-delay: .4s;}
-    .bubbles { background-color: #f58220; width:20px; height: 20px; margin:2px; border-radius:100%; display:inline-block; }
-    a { color: #2c7cb0; text-decoration: none; -moz-transition: color 0.15s ease; -o-transition: color 0.15s ease; -webkit-transition: color 0.15s ease; transition: color 0.15s ease; }
-    a:hover{color: #f4a15d}
-    .attribution{font-size: 16px; line-height: 1.5;}
-    .ray_id{display: block; margin-top: 8px;}
-    #cf-wrapper #challenge-form { padding-top:25px; padding-bottom:25px; }
-    #cf-hcaptcha-container { text-align:center;}
-    #cf-hcaptcha-container iframe { display: inline-block;}
-  </style>
-
-      <meta http-equiv="refresh" content="35">
-  <script type="text/javascript">
-    //<![CDATA[
-    (function(){
-      
-      window._cf_chl_opt={
-        cvId: "2",
-        cType: "non-interactive",
-        cNounce: "81212",
-        cRay: "6fc281bcedc8f21a",
-        cHash: "c5f0dbab91b8b97",
-        cUPMDTk: "\/token\/token-analytics?m=normal&contractAddress=0x0522ecfe37ab2bdb5d60a99e08d1e8379bd35c00&a=0x7788d9db565828fd99cfdc32414958587d09ae15&lg=en&__cf_chl_tk=OvdWFEkFp3LW3G5_1ZEPDSTV5CiX3tG0ACCHLX6lgvU-1650002907-0-gaNycGzNByU",
-        cFPWv: "b",
-        cTTimeMs: "1000",
-        cRq: {
-          ru: "aHR0cHM6Ly9ic2NzY2FuLmNvbS90b2tlbi90b2tlbi1hbmFseXRpY3M/bT1ub3JtYWwmY29udHJhY3RBZGRyZXNzPTB4MDUyMmVjZmUzN2FiMmJkYjVkNjBhOTllMDhkMWU4Mzc5YmQzNWMwMCZhPTB4Nzc4OGQ5ZGI1NjU4MjhmZDk5Y2ZkYzMyNDE0OTU4NTg3ZDA5YWUxNSZsZz1lbg==",
-          ra: "Y3VybC83LjY4LjA=",
-          rm: "R0VU",
-          d: "LQVR607VSh8kvWa9fUnWDmTxbhphFVfv1R3rUj7d2yjvy7rtCj6dX908OiwoWOUxuyNL8rYGc4Cy4M7CzZC+nR3FLA47XE4G+XKwtg7LYnRrN7LHVfmt/b/6qMMr/QJp7ILKTlgIVkkbOs6oZFvpzgJbbVp7WIWWzbJfJQamKu+Y+wtUUhdWZPQDihtuo3UXAUU5EyYuG8nnEIrydqXEtMM14xgq63Ic6y2swUXQ39Gwv3TZGOmPHeHMTvyC5K6IyrOOVEA/NyfKW/iJV007G9RaDb2ONwthauIwfptXKMI7r0jxfNNyH41OWMvVfetxBNBBRsYySFl+PEYlIVko5bK/SH1OwFgJSvMvQfwkn+9UPWO+sFH+/Skn0yZFkoaQ4lkp5NK5BmYOXrPWR5rO2kIUan2keqjQATr1W91TMf2wI8utWGWHK48S2WBnXKKnKfsOZQ8v7dCAUMVPctbrErHVB2E0Fwk01H2txb23xnaKQryndKpQM8uNnVl5E+jkBYu9WAm2BJN4Fsgii2hJeQ==",
-          t: "MTY1MDAwMjkwNy42ODUwMDA=",
-          m: "X12HpMonBTaZUZ6/RYNXVzw2jBBQNGrtyuqJUe0vzu0=",
-          i1: "faPHNSZ5qLcTR2ACE7E9oA==",
-          i2: "s3uVAsHYRhUfZwnQcVgGhg==",
-          zh: "Qdzt30w05SSNEnt2SHcgPWWgkLJnkQjTrp30vcMIKNM=",
-          uh: "LgBfwTjckPmPFLl2OGGaoWOKkjIgTojK2wwoWSzqSQw=",
-          hh: "Vp8XgbAEBUZjzbvIYix7yiouCoI+nFD74k+vBpVmgrY=",
+<title></title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="/assets/vendor/font-awesome/css/fontawesome-all.min.css?v=22.3.5.0">
+<link rel="stylesheet" href="/assets/css/theme.min.css?v=22.3.5.0">
+<link rel="stylesheet" href="/assets/css/custom.css?v=22.3.5.0">
+<script src="/assets/vendor/jquery/dist/jquery.min.js?v=22.3.5.0"></script>
+<style>
+         .table.tableformat tr td {
+            font-size: 8px !important;
+            font-style: italic;
+        } 
+        .highcharts-tooltip span {
+            height:auto;
+            min-width:270px;            
+            overflow:auto;
+            white-space:normal !important; 
+            background-color:white;
+            opacity: 1 !important;                 
+        } 
+        .highslide-header {
+            height: 27px !important;
         }
-      }
-      window._cf_chl_enter = function(){window._cf_chl_opt.p=1};
-      
-    })();
-    //]]>
-  </script>
-  
+        .highcharts-legend span {
+            font-size: 12px !important;
+        }
+        .highcharts-title {
+            fill: #434348;
+            font-size: 12px !important ;
+            /*font-weight: bold;*/
+            /*font-family: 'Courier New', monospace;*/  
+        }
 
-</head>
-<body>
-  <table width="100%" height="100%" cellpadding="20">
-    <tr>
-      <td align="center" valign="middle">
-          <div class="cf-browser-verification cf-im-under-attack">
-  <noscript>
-    <h1 data-translate="turn_on_js" style="color:#bd2426;">Please turn JavaScript on and reload the page.</h1>
-  </noscript>
-  <div id="cf-content" style="display:none">
-    
-    <div id="cf-bubbles">
-      <div class="bubbles"></div>
-      <div class="bubbles"></div>
-      <div class="bubbles"></div>
-    </div>
-    <h1><span data-translate="checking_browser">Checking your browser before accessing</span> bscscan.com.</h1>
-    
-    <div id="no-cookie-warning" class="cookie-warning" data-translate="turn_on_cookies" style="display:none">
-      <p data-translate="turn_on_cookies" style="color:#bd2426;">Please enable Cookies and reload the page.</p>
-    </div>
-    <p data-translate="process_is_automatic">This process is automatic. Your browser will redirect to your requested content shortly.</p>
-    <p data-translate="allow_5_secs" id="cf-spinner-allow-5-secs" >Please allow up to 5 seconds&hellip;</p>
-    <p data-translate="redirecting" id="cf-spinner-redirecting" style="display:none">Redirecting&hellip;</p>
-  </div>
-   
-  <form class="challenge-form" id="challenge-form" action="/token/token-analytics?m=normal&amp;contractAddress=0x0522ecfe37ab2bdb5d60a99e08d1e8379bd35c00&amp;a=0x7788d9db565828fd99cfdc32414958587d09ae15&amp;lg=en&amp;__cf_chl_f_tk=OvdWFEkFp3LW3G5_1ZEPDSTV5CiX3tG0ACCHLX6lgvU-1650002907-0-gaNycGzNByU" method="POST" enctype="application/x-www-form-urlencoded">
-    <input type="hidden" name="md" value="fr3YmIshOYm6qTpGOuimRt7O6CcKRMGFC59E9cfe6uk-1650002907-0-AWOO7pCYV_kQE868Rme9snXM00QbxOOcIyLMrH0S_kSY6bbXR8Fa_O5Cj8FUOjhzCj4jHSg8K1vahK4HWt7lIIEKTx4n4yec5h4uPggzXfs2Qwmy2WzXVLtP3ssQ8TPeh_OSmUVibQLQk3z7-8-aS62NBJmth8neU8sDIO9xiMMMRvYEocp48E5tb3WPn59wx771EoDuTbsSmAYcnIZ06c5BRICtF_F4g-7rYgIhFVHMhDj65oHaVSmfLpFn4_57407dOQ290kcHZ7SwnTLznPuf3FFJ0W7Yxhy4hwtAS46WzEzMFf8bWpTAZkKzsJBDxpZt3Z-sKboagkN9wrtMBW9m1zXhYqzW2bw_uTL97hEBtAOvqN08Do6fB8EfmUPwn8m5mJDUV3-AqEl1zuKH4VNeknfNGyAE1J9q43Dua9NO81o-IGtiYqOS2dlRcvjk3PZ8crirmYBkqcqZJ94r9aEFuN_dFsQjbNt0NHCsJoJdiBvfX3Qk_PTjDfMPASNWb2095CLyHORnTtO7d-H5PaRpSUGMQl4_LhgkluFhcZupgSU6Eu26TSOBigWQdasd4XNTxJLE_EjjaPPDm4ItHCWBv5NRcQVTTetW8H1BOUjsd4_MwD2o5p8VAHKDEHAlH3GM_AzO0Y0IUhCGWnZcyxZH1TEcVRLArgdE90Qbk9pmmFz7hP8J-SA1xvUCjinPqbCNBMAXk9XuxnOcopNmH_iba2bYX-qaBlheeQlZ2OTvJOWQ64nQPxraatqQ8LHRB87O3KbJsAojF58UE-BXLkjYw7uxrRaNKdNIU7snT7WDnu6IVN8i6CYEgDie0tWEmbTzAturoOhwi6Lqwoc5uHDaJSa-2fXrz3dzJh6bwsbMXoe51YvRzNaYKnqeMGspyx3Ev-wejsyN5_S-Z3O0mcM9HrwWm4_IMgXjjtRePwF6" />
-    <input type="hidden" name="r" value="NlfiLlo3pLXofH4P4tHr.iK71eWrwovBsS5aaaKXo64-1650002907-0-Aa47nDgQAjdTT66529z9Oa0KflkrQQwUxvTtvAiQGkNWyzgjdZ5hTsm+Yq+g2Bm1if/flb9Hi5nJQPcmoQ0eV30ndtPYlgCowuYm0StpwZ3A8BCyK4i8rjxkqctabovU/fx/Gw2NZw9P5TgDLhfVkuUZXmf/UiT/7U31aO3y92xrym7JQw/QJxI2fTo17rtfnKPaV5gDrNZT4oeJM5DOTlRVqlzZdM2Gy2dTvotCoVSpr1/Mv7Ok575Ltigjuis/PZyqKt1sw5vEadEU9AOhqlXOY2Za6cFnj9wFqBUKa8tfgwpV0nU2wX7pjvCIWyGplevDSAFkq6FCBWkiwsKnD2eziilH7FTIdTH8JcIFsFSebiKzsegVlMqwaec+Ka4gAQfK276L3R8BRHHolTC2AvNPkMwsSz0RGjtWZ9ST61Hqk3HZgBvmH8offhKhxU0JxjFmzJu85G9Nr62YSfdrDIyKRTaHNdN24ev43jGeMyTlV+yRBLtc3w/b12BPIwACci4QkV96bjtvYY3086xxVoVxLnslbHkhNo4zyqf7t71EeR4M65N9tx1Je18wOCSPbgc0lTlGok9wGiJMcwXIPLNtp5iG+ApX9TCtMTTbjiFspbo6CdcfetZ8V9406MqbUk6L1otIDfczNCqstzwSGitMGkKQc38DV30fgUezm6/QQU4CFSOSZbNdVZUOZFItlczuwzdutIKmKJTyT0LNfOQgA1ObdGoExCwrwn46TEpDEXEXi7UbC2GZKLBaLpft5ONdjC5f66l/7dgM1Y2DJA1AD64QbFNIU6ctlvoshjFQhV3doBmhS8NMXFWcbD8rRuyHkaVHJ1wZjslNjBGedRAU94LqvzOHHzzEE7lK+9GArDv8ccuwmunfN2qCN4qAbujaRnw/k1UgPN04Go32QAj5FWyUKBFcY/Fhv9V6j0OYdCwS84Z1SlniLMlpiGM89zd4ZfJe9xCv2eT5/ZfOeCxcnli+WRzdna9P4GqhWvlGagxyuO90cqdjauXYyLtmAmxLRqrs6ndWarU+hOQFfwu5L26nW5dwUg3TExaBi4qNbmdyv7/cADLIWhKdzN+GBqiuRwL7Ike64pp8PB1hQK5eSws371qel9zwuF52gkVmbf35hXtl7O04YWOLwgexrSoMDiBCujYIAreVi5I3VCe00e/m8HIOaUQAH0VvyYsj+dGtCaEmOzxL4a5b6ElrwjC4YH98afVmfR+dzFIGdk/zZ+JAdAlis1d96rSZbrk4bHDufs94jix1pWe20gStobmlosaUDBsdu8CinGb16TRscCUe3oqf2+EoJjwT/AdwMFEMqCYiTDTpjQwuMX4O6p/m/mFNlpzWYJpIPsvGq1mm5KqVkRpZ9aJPOaHodWw3vmin7VjKv9FAi/jDNlngpf3IUgkj69C/zuzWzjnMUxSZXtVn7iJ24fqW44pyuk03BRSsRKaBT2glFChF8qzQx5A6ZUJx019jfyczxYTMVud5TZseD3nxdsIbLxkD5UbU88/SzUEYlwVvU7EFT9koKUzZWLpVx4bA/E+l2MBxfqJTXYlYx2/4EGC9Xhy8gIsyaE7MTLvsR1B3WyYWxFR1VdGx96z9C/jQV7Pm85K5TdBvYcqkIoOAW5ikhsjDc8C84ouO6V4iMAsdEWg37cIlbQuRJFY8F+yRKbiQCJ68yHTfAqq5QVdobyDy7y3vSYbI7kEedMnErTA3rgIBiDOqnk1rJ5P1WVJnH8tI+BJzinxE+WUijbeWUVbVcfk0Vu15"/>
-    <input type="hidden" value="e0f8ac5f7cf5bed6e6565a2a7c22449f" id="jschl-vc" name="jschl_vc"/>
-    <!-- <input type="hidden" value="" id="jschl-vc" name="jschl_vc"/> -->
-    <input type="hidden" name="pass" value="1650002908.685-4lmut3xKaj"/>
-    <input type="hidden" id="jschl-answer" name="jschl_answer"/>
-  </form>
-     
-    <script type="text/javascript">
-      //<![CDATA[
-      (function(){
-          var a = document.getElementById('cf-content');
-          a.style.display = 'block';
-          var isIE = /(MSIE|Trident\/|Edge\/)/i.test(window.navigator.userAgent);
-          var trkjs = isIE ? new Image() : document.createElement('img');
-          trkjs.setAttribute("src", "/cdn-cgi/images/trace/jschal/js/transparent.gif?ray=6fc281bcedc8f21a");
-          trkjs.id = "trk_jschal_js";
-          trkjs.setAttribute("alt", "");
-          document.body.appendChild(trkjs);
-          var cpo=document.createElement('script');
-          cpo.type='text/javascript';
-          cpo.src="/cdn-cgi/challenge-platform/h/b/orchestrate/jsch/v1?ray=6fc281bcedc8f21a";
+        .highcharts-tooltip, .highcharts-tooltip text {
+            font-size:12px !important;
+        }
+
+        .highcharts-subtitle {
+            /*font-family: 'Courier New', monospace;*/    
+            height:20px !important ;
+            fill: #7cb5ec;
+        }
+        table.tokensummary {
+          /*border: 1px solid #1C6EA4;*/
+          background-color: #EEEEEE;          
+          width: 100%;
+          /*text-align: left;*/
+          border-collapse: collapse;
+        }
+        table.tokensummary td {
+            padding:5px;
+            font-size:11px;
+        }
+        table.tokensummary th {
+            padding:5px;
+            font-size:11px;
+        }
+        img.cssimgicon {
+            width:13px;
+            border-radius: 8px;
+            margin-top:-5px !important;
+            padding-right:2px;
+        }
+
+        .tableformat {
+            font-size: 12px !important;
+        }
+
+        body.dark-mode #containerchart1 .highcharts-yaxis-grid .highcharts-grid-line, 
+        body.dark-mode #containerchart2a .highcharts-yaxis-grid .highcharts-grid-line, 
+        body.dark-mode #containerchart2b .highcharts-yaxis-grid .highcharts-grid-line {
+            stroke: #013558 !important
+        }
+        
+    </style>
+<script src="/assets/highstocks-new/js/highstock.js?v=22.3.5.0"></script>
+<script src="/assets/highcharts-new/js/highcharts-more.js?v=22.3.5.0"></script>
+<script src="/assets/highcharts-module/js/annotations.js?v=22.3.5.0"></script>
+<script src="/assets/highslide/highslide-full.min.js?v=22.3.5.0"></script>
+<script src="/assets/highslide/highslide.config.js?v=22.3.5.0" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="/assets/highslide/highslide.css?v=22.3.5.0" />
+<script type="text/javascript">    
+        var tokenname = 'KaraStar UMY';
+        var tokensymbol = 'UMY';
+        var tokenimage = '';
+
+        var contractAddress = '0x0522ecfe37ab2bdb5d60a99e08d1e8379bd35c00';
+        var address = '0x7788d9db565828fd99cfdc32414958587d09ae15';
+        var current_usd_eth_value = 417.77;
+        var chartHeight = 500;
+
+        var plotData = eval([]);
+        var plotData_datemax = '';
+        
+        var plotData2ab = eval([[Date.UTC(2021,11,1),1,0,1,0,1,8000000000,0,8000000000],[Date.UTC(2021,11,11),1470,1470,0,1352,0,7999898872.5,101127.5,0],[Date.UTC(2021,11,12),1537,1537,0,1535,0,7999842296.2,56576.3,0],[Date.UTC(2021,11,13),682,682,0,682,0,7999808558.85,33737.35,0],[Date.UTC(2021,11,14),521,521,0,521,0,7999769074,39484.85,0],[Date.UTC(2021,11,15),493,493,0,493,0,7999734359.1,34714.9,0],[Date.UTC(2021,11,16),1398,1398,0,1398,0,7999665201.95,69157.15,0],[Date.UTC(2021,11,17),861,861,0,861,0,7999198313.05,466888.9,0],[Date.UTC(2021,11,18),1353,1353,0,1353,0,7999071015.9,127297.15,0],[Date.UTC(2021,11,19),1033,1033,0,1033,0,7998984635.25,86380.65,0],[Date.UTC(2021,11,20),1753,1753,0,1752,0,7998835588.8,149046.45,0],[Date.UTC(2021,11,21),1828,1828,0,1828,0,7998623067.15,212521.65,0],[Date.UTC(2021,11,22),3012,3012,0,3010,0,7998276568.9,346498.25,0],[Date.UTC(2021,11,23),3373,3373,0,3372,0,7997918778,357790.9,0],[Date.UTC(2021,11,24),1659,1659,0,1657,0,7997521731.2,397046.8,0],[Date.UTC(2021,11,25),818,818,0,817,0,7997256995.65,264735.55,0],[Date.UTC(2021,11,26),473,473,0,471,0,7997035145.95,221849.7,0],[Date.UTC(2021,11,27),823,823,0,818,0,7996617784.35,417361.6,0],[Date.UTC(2021,11,28),1277,1277,0,1275,0,7996223680.65,394103.7,0],[Date.UTC(2021,11,29),852,852,0,847,0,7995730248.75,493431.9,0],[Date.UTC(2021,11,30),748,748,0,748,0,7995325713.1,404535.65,0],[Date.UTC(2021,11,31),372,372,0,371,0,7995066441.95,259271.15,0],[Date.UTC(2022,0,1),351,351,0,350,0,7994854735.4,211706.55,0],[Date.UTC(2022,0,2),604,604,0,604,0,7994546238.1,308497.3,0],[Date.UTC(2022,0,3),820,820,0,819,0,7993755558.8,790679.3,0],[Date.UTC(2022,0,4),839,839,0,839,0,7993019318.3,736240.5,0],[Date.UTC(2022,0,5),437,437,0,436,0,7992751292.9,268025.4,0],[Date.UTC(2022,0,6),611,611,0,608,0,7992111118.3,640174.6,0],[Date.UTC(2022,0,7),291,291,0,291,0,7991937739.5,173378.8,0],[Date.UTC(2022,0,8),308,308,0,307,0,7991766217.95,171521.55,0],[Date.UTC(2022,0,9),811,811,0,811,0,7991262820.55,503397.4,0],[Date.UTC(2022,0,10),994,994,0,993,0,7990572409.95,690410.6,0],[Date.UTC(2022,0,11),466,466,0,463,0,7990263128.9,309281.05,0],[Date.UTC(2022,0,12),603,603,0,601,0,7989841568.3,421560.6,0],[Date.UTC(2022,0,13),398,398,0,396,0,7989559634.9,281933.4,0],[Date.UTC(2022,0,14),1047,1047,0,1046,0,7988771467.4,788167.5,0],[Date.UTC(2022,0,15),1153,1153,0,1153,0,7987645518.85,1125948.55,0],[Date.UTC(2022,0,16),1007,1007,0,1003,0,7986640055,1005463.85,0],[Date.UTC(2022,0,17),683,683,0,683,0,7985661005.9,979049.1,0],[Date.UTC(2022,0,18),362,362,0,360,0,7985417705.2,243300.7,0],[Date.UTC(2022,0,19),536,536,0,535,0,7985067522.85,350182.35,0],[Date.UTC(2022,0,20),916,916,0,916,0,7984539071.1,528451.75,0],[Date.UTC(2022,0,21),400,400,0,398,0,7984244856.1,294215,0],[Date.UTC(2022,0,22),826,826,0,825,0,7983680820.2,564035.9,0],[Date.UTC(2022,0,23),424,424,0,424,0,7983400445.75,280374.45,0],[Date.UTC(2022,0,24),608,608,0,608,0,7982959930.75,440515,0],[Date.UTC(2022,0,25),1294,1294,0,1292,0,7981819124.2,1140806.55,0],[Date.UTC(2022,0,26),1353,1353,0,1352,0,7980742263.1,1076861.1,0],[Date.UTC(2022,0,27),349,349,0,348,0,7980479904.45,262358.65,0],[Date.UTC(2022,0,28),364,364,0,363,0,7980203929.45,275975,0],[Date.UTC(2022,0,29),376,376,0,374,0,7979948745.2,255184.25,0],[Date.UTC(2022,0,30),1361,1361,0,1361,0,7979129223.9,819521.3,0],[Date.UTC(2022,0,31),531,531,0,530,0,7978712025.7,417198.2,0],[Date.UTC(2022,1,1),444,444,0,444,0,7978370476.95,341548.75,0],[Date.UTC(2022,1,2),392,392,0,392,0,7978077342.1,293134.85,0],[Date.UTC(2022,1,3),626,626,0,624,0,7977623087.25,454254.85,0],[Date.UTC(2022,1,4),652,652,0,652,0,7977136252.15,486835.1,0],[Date.UTC(2022,1,5),804,804,0,804,0,7976531572.4,604679.75,0],[Date.UTC(2022,1,6),534,534,0,534,0,7976111098.6,420473.8,0],[Date.UTC(2022,1,7),572,572,0,571,0,7975640032.55,471066.05,0],[Date.UTC(2022,1,8),767,767,0,765,0,7974934082.8,705949.75,0],[Date.UTC(2022,1,9),1324,1324,0,1323,0,7973908649.95,1025432.85,0],[Date.UTC(2022,1,10),894,894,0,891,0,7973231342.7,677307.25,0],[Date.UTC(2022,1,11),574,574,0,573,0,7972744648.2,486694.5,0],[Date.UTC(2022,1,12),384,384,0,384,0,7972433991.55,310656.65,0],[Date.UTC(2022,1,13),537,537,0,536,0,7971948039,485952.55,0],[Date.UTC(2022,1,14),655,655,0,652,0,7971414851.5,533187.5,0],[Date.UTC(2022,1,15),841,841,0,839,0,7970795092.4,619759.1,0],[Date.UTC(2022,1,16),1020,1020,0,1019,0,7969330896.35,1464196.05,0],[Date.UTC(2022,1,17),529,529,0,529,0,7968909482.05,421414.3,0],[Date.UTC(2022,1,18),475,475,0,474,0,7968499156.15,410325.9,0],[Date.UTC(2022,1,19),427,427,0,424,0,7968117994.3,381161.85,0],[Date.UTC(2022,1,20),1361,1361,0,1358,0,7967137595.25,980399.05,0],[Date.UTC(2022,1,21),676,676,0,674,0,7966615663.35,521931.9,0],[Date.UTC(2022,1,22),248,248,0,248,0,7966428425,187238.35,0],[Date.UTC(2022,1,23),258,258,0,258,0,7966198863.2,229561.8,0],[Date.UTC(2022,1,24),393,393,0,392,0,7965816036,382827.2,0],[Date.UTC(2022,1,25),717,717,0,716,0,7964441231.15,1374804.85,0],[Date.UTC(2022,1,26),675,675,0,674,0,7964064951.35,376279.8,0],[Date.UTC(2022,1,27),509,509,0,509,0,7963226064.3,838887.05,0],[Date.UTC(2022,1,28),504,504,0,504,0,7962642769.05,583295.25,0],[Date.UTC(2022,2,1),678,678,0,677,0,7961730259.85,912509.2,0],[Date.UTC(2022,2,2),1042,1042,0,1041,0,7961028576.55,701683.3,0],[Date.UTC(2022,2,3),782,782,0,782,0,7960551043.85,477532.7,0],[Date.UTC(2022,2,4),711,711,0,711,0,7960105606.9,445436.95,0],[Date.UTC(2022,2,5),380,380,0,380,0,7959869982.2,235624.7,0],[Date.UTC(2022,2,6),564,564,0,563,0,7959623871.4,246110.8,0],[Date.UTC(2022,2,7),219,219,0,219,0,7959479156,144715.4,0],[Date.UTC(2022,2,8),207,207,0,207,0,7959298271.25,180884.75,0],[Date.UTC(2022,2,9),272,272,0,272,0,7959007865.75,290405.5,0],[Date.UTC(2022,2,10),756,756,0,756,0,7958287125.45,720740.3,0],[Date.UTC(2022,2,11),206,206,0,204,0,7958124530.1,162595.35,0],[Date.UTC(2022,2,12),163,163,0,163,0,7958021946.25,102583.85,0],[Date.UTC(2022,2,13),267,267,0,267,0,7957886322.35,135623.9,0],[Date.UTC(2022,2,14),213,213,0,213,0,7957724932.55,161389.8,0],[Date.UTC(2022,2,15),215,215,0,215,0,7957518986.8,205945.75,0],[Date.UTC(2022,2,16),166,166,0,166,0,7957374313.2,144673.6,0],[Date.UTC(2022,2,17),201,201,0,201,0,7957239667.8,134645.4,0],[Date.UTC(2022,2,18),230,230,0,230,0,7957040097.5,199570.3,0],[Date.UTC(2022,2,19),528,528,0,528,0,7956612797.95,427299.55,0],[Date.UTC(2022,2,20),250,250,0,250,0,7956405773,207024.95,0],[Date.UTC(2022,2,21),366,366,0,366,0,7955798893.05,606879.95,0],[Date.UTC(2022,2,22),511,511,0,511,0,7954960148.5,838744.55,0],[Date.UTC(2022,2,23),458,458,0,458,0,7954233003.3,727145.2,0],[Date.UTC(2022,2,24),372,372,0,372,0,7953760734.55,472268.75,0],[Date.UTC(2022,2,25),604,586,18,586,17,7952924412.95,851321.6,15000],[Date.UTC(2022,2,26),296,277,19,277,17,7952559363.6,377466.35,12417],[Date.UTC(2022,2,27),432,418,14,418,9,7951913209.9,655353.7,9200],[Date.UTC(2022,2,28),523,513,10,513,9,7951201824.55,716996.35,5611],[Date.UTC(2022,2,29),326,319,7,319,7,7950758056.7,451461.85,7694],[Date.UTC(2022,2,30),121,117,4,117,4,7950652274.9,107771.8,1990],[Date.UTC(2022,2,31),175,164,11,164,8,7950517775.55,148497.35,13998],[Date.UTC(2022,3,1),481,477,4,477,4,7949957948.65,563826.9,4000],[Date.UTC(2022,3,2),192,188,4,188,3,7949777217.15,182580.5,1849],[Date.UTC(2022,3,3),182,180,2,180,1,7949618762.45,159054.7,600],[Date.UTC(2022,3,4),107,106,1,106,1,7949523710.85,96014.6,963],[Date.UTC(2022,3,5),109,107,2,107,2,7949415446.15,109464.7,1200],[Date.UTC(2022,3,6),332,332,0,332,0,7949115184.4,300261.75,0],[Date.UTC(2022,3,7),279,277,2,277,2,7948896799.15,218495.25,110],[Date.UTC(2022,3,8),116,115,1,115,1,7948790187.9,107611.25,1000],[Date.UTC(2022,3,9),156,155,1,155,1,7948642067.05,150957.85,2837],[Date.UTC(2022,3,10),165,162,3,162,3,7948512551.75,130220.3,705],[Date.UTC(2022,3,11),182,180,2,180,2,7948380815.55,134706.2,2970],[Date.UTC(2022,3,12),179,179,0,179,0,7948165918.9,214896.65,0],[Date.UTC(2022,3,13),140,138,2,138,2,7948010087.45,156836.45,1005],[Date.UTC(2022,3,14),110,107,3,107,3,7947880824.6,130152.85,890],]);    
+        var plotData2ab_datemax = Date.UTC(2022,3,14);
+
+        var strnodatatxt = "<span class='d-block text-center py-5'>No data points found for the current time series.<br>Note: Chart data is updated daily, you may try checking back later</div></span>";
+        var currencySymbol = 'USD';
+             
+        $(document).ready(function () {     
+             
+                generateChart_2a();
+                generateChart_2b();
+                generateChart_2c();
+            
+        });  
           
-          window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.indexOf('?') !== -1 ? '?' : location.search;
-          window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;
-          if (window._cf_chl_opt.cUPMDTk && window.history && window.history.replaceState) {
-            var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;
-            history.replaceState(null, null, "\/token\/token-analytics?m=normal&contractAddress=0x0522ecfe37ab2bdb5d60a99e08d1e8379bd35c00&a=0x7788d9db565828fd99cfdc32414958587d09ae15&lg=en&__cf_chl_rt_tk=OvdWFEkFp3LW3G5_1ZEPDSTV5CiX3tG0ACCHLX6lgvU-1650002907-0-gaNycGzNByU" + window._cf_chl_opt.cOgUHash);
-            cpo.onload = function() {
-              history.replaceState(null, null, ogU);
+        //Token Transfers Time Series Chart for a specific address
+        function generateChart_2a() {    
+            $("#container_2a").attr("style", "display:visible;");
+            $("#containerchart2a").attr("style", "display:visible;");
+            var seriesNameConverter = {
+                'Series_1': 'Total Transfers',
+                'Series_2': 'Outbound Transfers Count',
+                'Series_3': 'Inbound Transfers Count',
+                'Series_4': 'Unique Address Sent',
+                'Series_5': 'Unique Address Received'
             };
-          }
+            var chart;
+            chart = new Highcharts.chart({
+                chart: {
+                    renderTo: 'containerchart2a',
+                    zoomType: 'x',
+                    height: chartHeight
+                },
+                navigator: {
+                    enabled: true
+                },
+                rangeSelector: {
+                    buttons: [{
+                        type: 'month',
+                        count: 1,
+                        text: '1m'
+                    }, {
+                        type: 'month',
+                        count: 6,
+                        text: '6m'
+                    }, {
+                        type: 'year',
+                        count: 1,
+                        text: '1y'
+                    }, {
+                        type: 'all',
+                        text: 'All'
+                    }],
+                    selected: 4,
+                    enabled: true
+                },
+                title: {
+                    text: tokensymbol + ' Token Transfers for 0x7788d9db565828fd99cfdc32414958587d09ae15'
+                },
+                subtitle: {
+                    text: 'Source: BscScan.com'
+                },
+                xAxis: {
+                    //gridLineWidth: 1,
+                    //top: 11,
+                    type: 'datetime',
+                    crosshair: {
+                        width: 2,                        
+                    },
+                    max: plotData2ab_datemax
+                },
+                yAxis: [{
+                    //-Total Transfers
+                    title: {
+                        text: 'Transfer Counts'
+                    },
+                    min: 0,
+                    resize: {
+                        enabled: true
+                    },
+                    opposite: false,
+                    showEmpty: false                    
+                }, {
+                    //-Outbound Transfers Count
+                    resize: {
+                        enabled: true
+                    },
+                    title: {
+                        text: ''
+                    },
+                    min: 0,
+                    //linkedTo: 1,
+                    showEmpty: false,
+                    opposite: true
+                }, {
+                    //-Inbound Transfers
+                    //visible: false,
+                    //linkedTo: 0,
+                    showEmpty: false,
+                    min: 0,
+                    opposite: true,
+                    title: {
+                        text: ''
+                    }
+                }, {
+                    //-Unqiue Addr Sent
+                    resize: {
+                        enabled: true
+                    },
+                    min: 0,
+                    title: {
+                        text: 'Unique Counts'
+                    },
+                    opposite: true,
+                    //linkedTo: 1,
+                    showEmpty: false
+                    //tickInterval: 1
+                }, {
+                    //-Unqiue Addr Received
+                    resize: {
+                        enabled: true
+                    },
+                    min: 0,
+                    opposite: true,
+                    //linkedTo: 1,
+                    showEmpty: false
+                }
+                ],
+                plotOptions: {
+                    series: {
+                        animation: {
+                            duration: 0
+                        },
+                        turboThreshold: 10000,
+                        //cursor: 'pointer',
+                        point: {
+                            
+                        },
+                        marker: {
+                            lineWidth: 1
+                        }
+                    }
+                },
+                credits: {
+                    enabled: false
+                },
+                legend: {
+                    enabled: true,
+                    labelFormatter: function () {
+                         return seriesNameConverter[this.name];
+                    },
+                    //itemStyle: {
+                    //    color: '#000000',
+                    //    fontWeight: 'bold'
+                    //}
+                },
+                tooltip: {
+                    hideDelay: 0,
+                    crosshairs: true,
+                    //split: false,
+                    useHTML: true,
+                    shared: true,
+                    shadow: true,
+                    split: false,
+                    backgroundColor: 'white',
+                    formatter: function () {
+                        var s;
+                        var points = this.points;
+                        var pointsLength = points.length;
+                        s = '<table class="tableformat" style="border: 0px;" width="100%"><tr><td colspan=2 style="padding-bottom:5px;"><span style="font-size: 10px;"> ' + Highcharts.dateFormat('%a %e, %B %Y', new Date(points[0].key)) + '</span><br></td></tr>'
+                        for (index = 0; index < pointsLength; index += 1) {
+                            //var pointData;
+                            //pointData = plotData.find(row => row[0] === this.points[index].x);
+                            s += '<tr><td style="padding-top:4px;padding-bottom:4px;border-top:1px solid #D5D8DC;" valign="top"><span style="color:' + points[index].series.color + ';font-size: 15px !important;">\u25A0</span> ' + seriesNameConverter[points[index].series.name] + '</td>' +
+                                '<td align="right" valign="top" style="padding-top:5px;padding-bottom:4px;border-top:1px solid #D5D8DC;"><span style=""><b>' +
+                                points[index].y +
+                                '</b></td></tr>' ;                            
+                        }                        
+                        s += '</table>';
+                        return s;
+                    },
+
+                },
+                series: [{
+                    name: 'Series_1',  //Total token Transfers
+                    type: 'column',
+                    keys: ['x', 'y'],
+                    data: plotData2ab,
+                    pointWidth: 5,
+                    tooltip: {
+                        pointFormatter: function () {
+                            var text;
+                            var point = this;
+                            text = '<br><span style="color:' + point.series.color + '">&#11044</span> ' + point.series.name + ': <b>' + this.y + '</b><br>';
+                            return text;
+                        }
+                    }
+                }, {
+                    name: 'Series_2',   //Outbound Transfers count
+                    type: 'line',
+                    //yAxis: 1,
+                    keys: ['x', 'a', 'y'],
+                    data: plotData2ab
+                }, {
+                    name: 'Series_3',   //Inbound Transfers count
+                    type: 'line',
+                    keys: ['x', 'a', 'b', 'y'],
+                    //yAxis: 1,
+                    visible: true,
+                    data: plotData2ab
+                }, {
+                    name: 'Series_4',  //Unique Address SentTo count
+                    type: 'line',
+                    keys: ['x', 'a', 'b', 'c', 'y'],
+                    visible: true,
+                    yAxis: 1,
+                    data: plotData2ab
+                }, {
+                    name: 'Series_5', //Unique Address ReceivedFrom count
+                    type: 'line',
+                    keys: ['x', 'a', 'b', 'c', 'd', 'y'],
+                    visible: true,
+                    yAxis: 1,
+                    data: plotData2ab
+                }
+                ]
+            }, function (chart) { // on complete
+                var point = chart.series[0].points[0];                                
+                if (typeof point == 'undefined') {
+
+                    $("#container_2a").attr("style", "display:none;");
+                    $("#containerchart2a").attr("style", "display:none;");                      
+                    document.getElementById("tab2_default_content").innerHTML = strnodatatxt
+                }                
+            }
+            )
+            $("#addressdisplay_2a").text(formatDate(chart.xAxis[0].getExtremes().dataMin) + " - " + formatDate(chart.xAxis[0].getExtremes().dataMax));            
+        }
+        //- End ------------------------
+
+        //Token Balance Time Series Chart for a specific address
+        function generateChart_2b() {    
+            $("#container_2b").attr("style", "display:visible;");
+            $("#containerchart2b").attr("style", "display:visible;");
+            var seriesNameConverter = {
+                'Series_1': 'Token Balance'                
+            };
+            var chart;
+            chart = new Highcharts.chart({
+                chart: {
+                    renderTo: 'containerchart2b',
+                    zoomType: 'x',
+                    height: chartHeight
+                },
+                navigator: {
+                    enabled: true
+                },
+                rangeSelector: {
+                    buttons: [{
+                        type: 'month',
+                        count: 1,
+                        text: '1m'
+                    }, {
+                        type: 'month',
+                        count: 6,
+                        text: '6m'
+                    }, {
+                        type: 'year',
+                        count: 1,
+                        text: '1y'
+                    }, {
+                        type: 'all',
+                        text: 'All'
+                    }],
+                    selected: 4,
+                    enabled: true
+                },
+                title: {
+                    text: tokensymbol + ' Token Balance for 0x7788d9db565828fd99cfdc32414958587d09ae15'
+                },
+                subtitle: {
+                    text: 'Source: BscScan.com'
+                },
+                xAxis: {
+                    //gridLineWidth: 1,
+                    //top: 11,
+                    type: 'datetime',
+                    crosshair: {
+                        width: 2,                        
+                    },
+                    max: plotData2ab_datemax
+                },
+                yAxis: [{
+                    //-Total Balance
+                    title: {
+                        text: 'Token Balance'
+                    },
+                    resize: {
+                        enabled: true
+                    },
+                    opposite: false,
+                    showEmpty: false,
+                }, {
+                    //-Token Price
+                    resize: {
+                        enabled: true
+                    },
+                    title: {
+                        text: 'Token Price'
+                    },
+                    showEmpty: false,
+                    opposite: true,
+                }
+                ],
+                plotOptions: {
+                    series: {
+                        animation: {
+                            duration: 0
+                        },
+                        turboThreshold: 10000,
+                        //cursor: 'pointer',
+                        point: {
+                            
+                        },
+                        marker: {
+                            lineWidth: 1
+                        }
+                    }
+                },
+                credits: {
+                    enabled: false
+                },
+                legend: {
+                    enabled: true,
+                    labelFormatter: function () {
+                         return seriesNameConverter[this.name];
+                    },
+                },
+                tooltip: {
+                    hideDelay: 0,
+                    crosshairs: true,
+                    useHTML: true,
+                    shared: true,
+                    shadow: true,
+                    split: false,
+                    backgroundColor: 'white',
+                    formatter: function () {
+                        var s;
+                        var points = this.points;
+                        var pointsLength = points.length;
+                        s = '<table class="tableformat" style="border: 0px;" width="100%"><tr><td colspan=2 style="padding-bottom:5px;"><span style="font-size: 10px;"> ' + Highcharts.dateFormat('%a %e, %B %Y', new Date(points[0].key)) + '</span><br></td></tr>'
+                        for (index = 0; index < pointsLength; index += 1) {
+                            //var pointData;
+                            //pointData = plotData.find(row => row[0] === this.points[index].x);
+                            s += '<tr><td style="padding-top:4px;padding-bottom:4px;border-top:1px solid #D5D8DC;" valign="top"><span style="color:' + points[index].series.color + ';font-size: 15px !important;">\u25A0</span> ' + seriesNameConverter[points[index].series.name] + '</td>' +
+                                '<td align="right" valign="top" style="padding-top:5px;padding-bottom:4px;border-top:1px solid #D5D8DC;"><span style=""><b>' +
+                                points[index].y +
+                                '</b></td></tr>' ;                            
+                        }                        
+                        s += '</table>';
+                        return s;
+                    },
+
+                },
+                series: [{
+                    name: 'Series_1',  //Token Balance
+                    type: 'line',
+                    keys: ['x', 'a', 'b', 'c', 'd', 'e','y'],
+                    data: plotData2ab,
+                    pointWidth: 5,
+                    tooltip: {
+                        pointFormatter: function () {
+                            var text;
+                            var point = this;
+                            text = '<br><span style="color:' + point.series.color + '">&#11044</span> ' + point.series.name + ': <b>' + this.y + '</b><br>';
+                            return text;
+                        }
+                    }
+                }
+                ]
+            }, function (chart) { // on complete
+                var point = chart.series[0].points[0];                                
+                if (typeof point == 'undefined') {
+
+                    $("#container_2b").attr("style", "display:none;");
+                    $("#containerchart2b").attr("style", "display:none;");                      
+                    document.getElementById("tab3_default_content").innerHTML = strnodatatxt
+                }                
+            }
+            )
+            $("#addressdisplay_2b").text(formatDate(chart.xAxis[0].getExtremes().dataMin) + " - " + formatDate(chart.xAxis[0].getExtremes().dataMax));            
+        }
+        //- End ------------------------
+
+        //Token Balance Time Series Chart for a specific address
+        function generateChart_2c() {
+            $("#container_2c").attr("style", "display:visible;");
+            $("#containerchart2c").attr("style", "display:visible;");
+            var seriesNameConverter = {
+                'Series_1': 'Sent (Out)',
+                'Series_2': 'Receive (In)'
+            };
+            var chart;
+            chart = new Highcharts.chart({
+                chart: {
+                    renderTo: 'containerchart2c',
+                    zoomType: 'x',
+                    height: chartHeight
+                },
+                navigator: {
+                    enabled: true
+                },
+                rangeSelector: {
+                    buttons: [{
+                        type: 'month',
+                        count: 1,
+                        text: '1m'
+                    }, {
+                            type: 'month',
+                            count: 6,
+                            text: '6m'
+                        }, {
+                            type: 'year',
+                            count: 1,
+                            text: '1y'
+                        }, {
+                            type: 'all',
+                            text: 'All'
+                        }],
+                    selected: 4,
+                    enabled: true
+                },
+                title: {
+                    text: tokensymbol + ' Token Transfers for 0x7788d9db565828fd99cfdc32414958587d09ae15'
+                },
+                subtitle: {
+                    text: 'Source: BscScan.com'
+                },
+                xAxis: {
+                    //gridLineWidth: 1,
+                    //top: 11,
+                    type: 'datetime',
+                    crosshair: {
+                        width: 2,
+                    },
+                    max: plotData2ab_datemax
+                },
+                yAxis: [{
+                        //-Total Transfers
+                        title: {
+                            text: 'Transfer Amounts'
+                        },
+                        min: 0,
+                        resize: {
+                            enabled: true
+                        },
+                        opposite: false,
+                        showEmpty: false
+                    }, {
+                        //-Outbound Transfers Count
+                        resize: {
+                            enabled: true
+                        },
+                        title: {
+                            text: ''
+                        },
+                        min: 0,
+                        //linkedTo: 1,
+                        showEmpty: false,
+                        opposite: true
+                    }
+                ],
+                plotOptions: {
+                    series: {
+                        animation: {
+                            duration: 0
+                        },
+                        turboThreshold: 10000,                        
+                        point: {
+                        },
+                        marker: {
+                            lineWidth: 1
+                        }
+                    }
+                },
+                credits: {
+                    enabled: false
+                },
+                legend: {
+                    enabled: true,
+                    labelFormatter: function () {
+                        return seriesNameConverter[this.name];
+                    },
+                },
+                tooltip: {
+                    hideDelay: 0,
+                    crosshairs: true,
+                    //split: false,
+                    useHTML: true,
+                    shared: true,
+                    shadow: true,
+                    split: false,
+                    backgroundColor: 'white',
+                    formatter: function () {
+                        var s;
+                        var points = this.points;
+                        var pointsLength = points.length;
+                        s = '<table class="tableformat" style="border: 0px;" width="100%"><tr><td colspan=2 style="padding-bottom:5px;"><span style="font-size: 10px;"> ' + Highcharts.dateFormat('%a %e, %B %Y', new Date(points[0].key)) + '</span><br></td></tr>'
+                        for (index = 0; index < pointsLength; index += 1) {
+                            //var pointData;
+                            //pointData = plotData.find(row => row[0] === this.points[index].x);
+                            s += '<tr><td style="padding-top:4px;padding-bottom:4px;border-top:1px solid #D5D8DC;" valign="top"><span style="color:' + points[index].series.color + ';font-size: 15px !important;">\u25A0</span> ' + seriesNameConverter[points[index].series.name] + '</td>' +
+                                '<td align="right" valign="top" style="padding-top:5px;padding-bottom:4px;border-top:1px solid #D5D8DC;"><span style=""><b>' +
+                                points[index].y +
+                                '</b> ' + tokensymbol + '</td></tr>';
+                        }
+                        s += '</table>';
+                        return s;
+                    },
+
+                },
+                series: [{
+                    name: 'Series_1',  //Total token Transfers
+                    type: 'column',
+                    keys: ['x', '1','2','3','4','5','6','y','7'],
+                    data: plotData2ab
+                }, {
+                    name: 'Series_2',   //Outbound Transfers count
+                    type: 'column',
+                        keys: ['x', '1', '2', '3', '4', '5', '6', '7', 'y'],
+                    data: plotData2ab
+                }
+                ]
+            }, function (chart) { // on complete
+                var point = chart.series[0].points[0];
+                if (typeof point == 'undefined') {
+                    $("#container_2c").attr("style", "display:none;");
+                    $("#containerchart2c").attr("style", "display:none;");
+                    document.getElementById("tab4_default_content").innerHTML = strnodatatxt
+                }
+            }
+            )
+               $("#addressdisplay_2c").text(formatDate(chart.xAxis[0].getExtremes().dataMin) + " - " + formatDate(chart.xAxis[0].getExtremes().dataMax));
+           }
+        //- End ------------------------
+
           
-          document.getElementsByTagName('head')[0].appendChild(cpo);
-        }());
-      //]]>
     </script>
-  
-
-  
-  <div id="trk_jschal_nojs" style="background-image:url('/cdn-cgi/images/trace/jschal/nojs/transparent.gif?ray=6fc281bcedc8f21a')"> </div>
+<script async src='/cdn-cgi/challenge-platform/h/b/scripts/invisible.js?ts=1650024000'></script></head>
+<body id="body">
+<style>
+        #overlay {
+            background: #ffffff;
+            color: #666666;
+            position: fixed;
+            height: 100%;
+            width: 100%;
+            z-index: 5000;
+            top: 0;
+            left: 0;
+            float: left;
+            text-align: center;
+            padding-top: 10px;
+        }
+    </style>
+<script>window.parent.isFrameLoading = true;</script>
+<ul class="nav nav-pills nav-pills-secondary mb-2" id="nav_tabs" role="tablist">
+<li id="li_tab3" class="nav-item">
+<a class="nav-link active show" href="#tab3" data-toggle="tab">
+Token Balance</a></li>
+<li id="li_tab4" class="nav-item">
+<a class="nav-link" href="#tab4" data-toggle="tab">
+Token Transfer Amounts<sup><span class="badge badge-success ml-1"> New</span></sup></a></li>
+<li id="li_tab2" class="nav-item">
+<a class="nav-link" href="#tab2" data-toggle="tab">
+Token Transfer Counts</a></li>
+</ul>
+<div class="tab-content card border p-3 mb-4">
+<div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+<span id="tab2_default_content"></span>
+<div style="display: none" id="container_2a">
+<div class="d-md-flex justify-content-between align-items-center mb-3">
+<h4 class="h6 mb-1 mb-md-0">Time Series: Token Transfer Count for User Address</h4>
+<div class="text-secondary">
+<span id="addressdisplay_2a"></span>
 </div>
+</div>
+<hr class="my-0">
+<div class="mt-3">
+<div class="content" id="containerchart2a" style="height: 565px; min-width: 300px; display: none"></div>
+</div>
+</div>
+</div>
+<div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tab4-tab">
+<span id="tab4_default_content"></span>
+<div style="display: none" id="container_2c">
+<div class="d-md-flex justify-content-between align-items-center mb-3">
+<h4 class="h6 mb-1 mb-md-0">Time Series: Token Transfer Amounts for User Address</h4>
+<div class="text-secondary">
+<span id="addressdisplay_2c"></span>
+</div>
+</div>
+<hr class="my-0">
+<div class="mt-3">
+<div class="content" id="containerchart2c" style="height: 565px; min-width: 300px; display: none"></div>
+</div>
+</div>
+</div>
+<div class="tab-pane fade active show" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
+<span id="tab3_default_content"></span>
+<div style="display: none" id="container_2b">
+<div class="d-md-flex justify-content-between align-items-center mb-3">
+<h4 class="h6 mb-1 mb-md-0">Time Series: Token Balance for User Address</h4>
+<div class="text-secondary">
+<span id="addressdisplay_2b"></span>
+</div>
+</div>
+<hr class="my-0">
+<div class="mt-3">
+<div class="content" id="containerchart2b" style="height: 565px; min-width: 300px; display: none"></div>
+</div>
+</div>
+</div>
+<div class="tab-pane fade" id="tokenChart" role="tabpanel" aria-labelledby="tokenChart-tab">
+<div id="loadingtxframe3">
+<div id="overlay3" class="py-3 text-center">
+<img src="/images/main/loadingblock.svg" alt="Loading" />
+</div>
+</div>
+<div class="table-responsive" style="overflow: auto; -webkit-overflow-scrolling: touch; visibility:hidden;">
+<iframe width="100%" id="tokenchartiframe" src="" frameborder="0" scrolling="yes" style="height: 510px; min-width: 300px;"></iframe>
+</div>
+</div>
+</div>
+<script src="/assets/vendor/bootstrap/bootstrap.min.js?v=22.3.5.0"></script>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6fc494676b5f9c31',m:'tUF_fkwOnCvh_c41mXxmZLWcvxUtqLW6m8SNZ3W_WYE-1650024643-0-ATrH10Zn0nHM7W14fo8K49VQj5272DVBqwc7sJFBIRTSh9XDXoqZNjjltJfJYGRqgVjyNux7hds1mKjzl7cBIC0dvXrGlQtMFdUbVC4Dc+nlWQovXarpcD0W/vxUvbzNYvaKtpGgh8iEcq0/fmng+XO4L9VVRmiqKm5MK/wMzatmqtXkifU8iDEMggEdoonoEoxsjqA8ZuTQGKhTikFApkP5vG52163gGZ23vs4KYXf9V6qGFTmsahGsA5YPQOlkRPNkQgpmXVrgtpodx6UBnxNYztDnDV7nlGHfde0GKs6p',s:[0x60a64ed4af,0xddf6a372cd],u:'/cdn-cgi/challenge-platform/h/b'}})();</script></body>
+<script type="text/javascript"> 
+    $(window).on('load', function () {
+        $('#overlay').fadeOut();
+        window.parent.document.getElementById('loadinganalyticframe').style.display = "none";
 
-          
-          <div class="attribution">
-            DDoS protection by <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing/" target="_blank">Cloudflare</a>
-            <br />
-            <span class="ray_id">Ray ID: <code>6fc281bcedc8f21a</code></span>
-          </div>
-      </td>
-     
-    </tr>
-  </table>
-</body>
+        setTimeout(function () {
+            var obj = window.parent.document.getElementById('token_analytics_pageiframe');
+            parent.resizeIframe(obj, -20);
+        }, 300);
+
+        window.parent.isFrameLoading = false;
+        window.parent.token_analytics_loaded = true;
+        window.parent.document.getElementById('overlayMain').style.display = 'none';
+           
+    });
+
+    if ("ontouchstart" in document.documentElement) {
+        $('html').addClass('touch');
+    };
+
+    //- common functions go here -
+    function formatDate(dtTimeStamp) {
+        var date = new Date(dtTimeStamp)
+        var monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"];
+        var dayNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+        var day = date.getDate();
+        var monthIndex = date.getMonth();
+        var year = date.getFullYear();
+        return dayNames[date.getDay()] + ' ' + day + ', ' + monthNames[monthIndex] + ' ' + year;
+    };
+    function addCommas(nStr) {
+        nStr += '';
+        x = nStr.split('.');
+        x1 = x[0];
+        x2 = x.length > 1 ? '.' + x[1] : '';
+        var rgx = /(\d+)(\d{3})/;
+        while (rgx.test(x1)) {
+            x1 = x1.replace(rgx, '$1' + ',' + '$2');
+        }
+        return x1 + x2;
+    };
+    function gettokeninfo(dtTimestamp, address) {
+        var results;
+        $.ajax({
+            //dataType: "json",
+            type: 'Get',
+            url: '/analyticsHandler.ashx?t=t',
+            //async: false,
+            data: { dt: dtTimestamp, address: address },
+            success: function (data) {
+                //console.log("Success| " + data);
+                results = data;
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                console.log("Error| " + textStatus);
+            }
+        });
+        return results;
+    };
+
+    //Start Add Chart Tab
+    window.tokenChartLoaded = false;
+
+    var hash = window.parent.location.hash.substring(1);
+    window.mode = 'normal';
+
+    function activaTab(tab) {            
+        updatehash(hash);
+            
+        $('.nav_tabs1 a[href="#tokenAnalytics"]').tab('show');
+        $('.nav-pills li a[href="#' + tab + '"]').tab('show');      
+    };
+
+    function updatehash(strhash) {
+        if (strhash == '') {
+            var baseUrl = window.parent.location.href.split('#')[0];
+            history.replaceState("", document.title, baseUrl);
+        } else {
+            var baseUrl = window.parent.location.href.split('#')[0];
+            history.replaceState("", document.title, baseUrl + '#' + strhash);
+        };
+        window.parent.document.getElementById('overlayMain').style.display = 'none';
+        return true;
+    };
+       
+    function loadIframeSource1() {
+        if (window.tokenChartLoaded == false) {
+            window.tokenChartLoaded = true;
+            document.getElementById('tokenchartiframe').src = '/token/tokenchart?m=' + window.mode + '&contractAddress=0x0522ecfe37ab2bdb5d60a99e08d1e8379bd35c00';
+        };
+    }; 
+
+    function resizeIframe(obj, addwidth) {
+    setTimeout(function () {
+            obj.style.height = 0;
+            obj.style.height = (obj.contentWindow.document.body.scrollHeight + addwidth) + 'px';
+            obj.parentElement.style.visibility = 'visible';
+        }, 300); 
+    };
+
+    $('#li_tokenChartTab').on('click', function () {
+        $('#tokenChart').attr('style', 'display:visible;');           
+        $('#tab3').attr('style', 'display:none;');
+        $('#tab2').attr('style', 'display:none;');
+        $('#tab1').attr('style', 'display:none;');
+
+        var obj = window.parent.document.getElementById('token_analytics_pageiframe');
+        parent.resizeIframe(obj, -20);
+    });
+    $('#li_tab3').on('click', function () {
+        $('#tab3').attr('style', 'display:visible;');           
+        $('#tokenChart').attr('style', 'display:none;');
+        $('#tab2').attr('style', 'display:none;');
+        $('#tab1').attr('style', 'display:none;');
+
+        var obj = window.parent.document.getElementById('token_analytics_pageiframe');
+        parent.resizeIframe(obj, -20);
+    });
+    $('#li_tab2').on('click', function () {
+        $('#tab2').attr('style', 'display:visible;');           
+        $('#tokenChart').attr('style', 'display:none;');
+        $('#tab3').attr('style', 'display:none;');
+        $('#tab1').attr('style', 'display:none;');
+
+        var obj = window.parent.document.getElementById('token_analytics_pageiframe');
+        parent.resizeIframe(obj, -20);
+    });
+    $('#li_tab1').on('click', function () {
+        $('#tab1').attr('style', 'display:visible;');           
+        $('#tokenChart').attr('style', 'display:none;');
+        $('#tab3').attr('style', 'display:none;');
+        $('#tab2').attr('style', 'display:none;');
+
+        var obj = window.parent.document.getElementById('token_analytics_pageiframe');
+        parent.resizeIframe(obj, -20);
+    });
+    //End Add Chart Tab
+
+</script>
 </html>
