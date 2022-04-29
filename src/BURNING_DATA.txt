@@ -6,10 +6,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="format-detection" content="telephone=no">
 <meta name="robots" content="noindex, nofollow">
-<link rel="stylesheet" href="/assets/vendor/font-awesome/css/fontawesome-all.min.css?v=22.3.5.0">
-<link rel="stylesheet" href="/assets/css/theme.min.css?v=22.3.5.0">
-<link rel="stylesheet" href="/assets/css/custom.css?v=22.3.5.0">
-<script src="/assets/vendor/jquery/dist/jquery.min.js?v=22.3.5.0"></script>
+<link rel="stylesheet" href="/assets/vendor/font-awesome/css/fontawesome-all.min.css?v=22.4.3.0">
+<link rel="stylesheet" href="/assets/css/theme.min.css?v=22.4.3.0">
+<link rel="stylesheet" href="/assets/css/custom.css?v=22.4.3.0">
+<script src="/assets/vendor/jquery/dist/jquery.min.js?v=22.4.3.0"></script>
 <style>
          .table.tableformat tr td {
             font-size: 8px !important;
@@ -78,12 +78,12 @@
         }
         
     </style>
-<script src="/assets/highstocks-new/js/highstock.js?v=22.3.5.0"></script>
-<script src="/assets/highcharts-new/js/highcharts-more.js?v=22.3.5.0"></script>
-<script src="/assets/highcharts-module/js/annotations.js?v=22.3.5.0"></script>
-<script src="/assets/highslide/highslide-full.min.js?v=22.3.5.0"></script>
-<script src="/assets/highslide/highslide.config.js?v=22.3.5.0" charset="utf-8"></script>
-<link rel="stylesheet" type="text/css" href="/assets/highslide/highslide.css?v=22.3.5.0" />
+<script src="/assets/highstocks-new/js/highstock.js?v=22.4.3.0"></script>
+<script src="/assets/highcharts-new/js/highcharts-more.js?v=22.4.3.0"></script>
+<script src="/assets/highcharts-module/js/annotations.js?v=22.4.3.0"></script>
+<script src="/assets/highslide/highslide-full.min.js?v=22.4.3.0"></script>
+<script src="/assets/highslide/highslide.config.js?v=22.4.3.0" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="/assets/highslide/highslide.css?v=22.4.3.0" />
 <script type="text/javascript">    
         var tokenname = 'KaraStar UMY';
         var tokensymbol = 'UMY';
@@ -91,7 +91,7 @@
 
         var contractAddress = '0x0522ecfe37ab2bdb5d60a99e08d1e8379bd35c00';
         var address = '0x0b5ebf9bab9b796e9408a8222efa4fbab625313f';
-        var current_usd_eth_value = 406;
+        var current_usd_eth_value = 395.39;
         var chartHeight = 500;
 
         var plotData = eval([]);
@@ -644,7 +644,7 @@
 
           
     </script>
-<script async src='/cdn-cgi/challenge-platform/h/g/scripts/cb/invisible.js?cb=7035ddec88173818'></script></head>
+<script async src='/cdn-cgi/challenge-platform/h/g/scripts/invisible.js?ts=1651233600'></script></head>
 <body id="body">
 <style>
         #overlay {
@@ -730,8 +730,8 @@ Token Transfer Counts</a></li>
 </div>
 </div>
 </div>
-<script src="/assets/vendor/bootstrap/bootstrap.min.js?v=22.3.5.0"></script>
-<script type="text/javascript">(function(){window['__CF$cv$params']={r:'7035ddec88173818',m:'dLp8fUoEH1McNJ4stweL06797ExZqp0P1HUDtF8g9YA-1651212546-0-AfdRhkTBgO1iKUb9G8WLkqed+NP/ZI6DgSEVeOR6i/PR5XcTGpqs6yARULOGAxQbolnH49zP62tZayuiFYSW2tFH8RQ2fRQTaItIYJ/khOl3PblItqfcJ67E4lAP0zNcAj1mABGSj1ZbGqpBRCXIf53uWCSAc6xFha4LYKD+N5NPI19xmuGfvI9hpmQUWIe0hcEzNcHsQyztG3JJyUyK0HvqqR+mr0KRQUCUtm4wLUMZ02hCQ/7oUmxy7E8Q+RYiGud/lPHHGB6YaqVo4bgbtNWmwJJLpXCqxu+KkwGJ3ej9',s:[0x3a244ddb81,0xfdcc7350db],u:'/cdn-cgi/challenge-platform/h/g'}})();</script></body>
+<script src="/assets/vendor/bootstrap/bootstrap.min.js?v=22.4.3.0"></script>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'7037f0e14ed46820',m:'iTzwbbGjUGj8kWYfSFwqxIjStSktnFaM_yKB.f9paXk-1651234294-0-AbBnQMEkxJVqjtnfqZd4RS8ojm010l+s43gVdG5xA1YUM1KogTaS+y7Fs4j3HW8iyb5OTJq+gLRiN7tTkqj8Qgu33sKpXjA9RkvKVHr4LYNuSTe3QzjleeFTzS9z2Fh1TUQfT0FqDhEsCOeAG9xowoqMYId3668qpNqFCSOoW7B2FVBGXHQ0Vj9IE/JZNy2+FPliQIwahqWHjqhnYFFlYK+KjvsJ2ull7ZcI4Rce92Cdtvh+7/BJPbQOwI4Qj2viQLqhBdWf7j0Hgt5hjTyYghb1+RMF3z9WXoSgg4segHHm',s:[0x732828f83d,0xab201303f5],u:'/cdn-cgi/challenge-platform/h/g'}})();</script></body>
 <script type="text/javascript"> 
     $(window).on('load', function () {
         $('#overlay').fadeOut();
