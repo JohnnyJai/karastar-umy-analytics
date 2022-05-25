@@ -6,10 +6,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="format-detection" content="telephone=no">
 <meta name="robots" content="noindex, nofollow">
-<link rel="stylesheet" href="/assets/vendor/font-awesome/css/fontawesome-all.min.css?v=22.5.1.0">
-<link rel="stylesheet" href="/assets/css/theme.min.css?v=22.5.1.0">
-<link rel="stylesheet" href="/assets/css/custom.css?v=22.5.1.0">
-<script src="/assets/vendor/jquery/dist/jquery.min.js?v=22.5.1.0"></script>
+<link rel="stylesheet" href="/assets/vendor/font-awesome/css/fontawesome-all.min.css?v=22.5.3.0">
+<link rel="stylesheet" href="/assets/css/theme.min.css?v=22.5.3.0">
+<link rel="stylesheet" href="/assets/css/custom.css?v=22.5.3.0">
+<script src="/assets/vendor/jquery/dist/jquery.min.js?v=22.5.3.0"></script>
 <style>
          .table.tableformat tr td {
             font-size: 8px !important;
@@ -78,12 +78,12 @@
         }
         
     </style>
-<script src="/assets/highstocks-new/js/highstock.js?v=22.5.1.0"></script>
-<script src="/assets/highcharts-new/js/highcharts-more.js?v=22.5.1.0"></script>
-<script src="/assets/highcharts-module/js/annotations.js?v=22.5.1.0"></script>
-<script src="/assets/highslide/highslide-full.min.js?v=22.5.1.0"></script>
-<script src="/assets/highslide/highslide.config.js?v=22.5.1.0" charset="utf-8"></script>
-<link rel="stylesheet" type="text/css" href="/assets/highslide/highslide.css?v=22.5.1.0" />
+<script src="/assets/highstocks-new/js/highstock.js?v=22.5.3.0"></script>
+<script src="/assets/highcharts-new/js/highcharts-more.js?v=22.5.3.0"></script>
+<script src="/assets/highcharts-module/js/annotations.js?v=22.5.3.0"></script>
+<script src="/assets/highslide/highslide-full.min.js?v=22.5.3.0"></script>
+<script src="/assets/highslide/highslide.config.js?v=22.5.3.0" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="/assets/highslide/highslide.css?v=22.5.3.0" />
 <script type="text/javascript">    
         var tokenname = 'KaraStar UMY';
         var tokensymbol = 'UMY';
@@ -91,7 +91,7 @@
 
         var contractAddress = '0x0522ecfe37ab2bdb5d60a99e08d1e8379bd35c00';
         var address = '0x7788d9db565828fd99cfdc32414958587d09ae15';
-        var current_usd_eth_value = 330.74;
+        var current_usd_eth_value = 326.2;
         var chartHeight = 500;
 
         var plotData = eval([]);
@@ -644,7 +644,7 @@
 
           
     </script>
-<script async src='/cdn-cgi/challenge-platform/h/g/scripts/invisible.js?ts=1653458400'></script></head>
+<script async src='/cdn-cgi/challenge-platform/h/g/scripts/invisible.js?ts=1653480000'></script></head>
 <body id="body">
 <style>
         #overlay {
@@ -664,7 +664,7 @@
 <script>window.parent.isFrameLoading = true;</script>
 <ul class="nav nav-pills nav-pills-secondary mb-2" id="nav_tabs" role="tablist">
 <li id="li_tab3" class="nav-item">
-<a class="nav-link active show" href="#tab3" data-toggle="tab">
+ <a class="nav-link active show" href="#tab3" data-toggle="tab">
 Token Balance</a></li>
 <li id="li_tab4" class="nav-item">
 <a class="nav-link" href="#tab4" data-toggle="tab">
@@ -730,8 +730,8 @@ Token Transfer Counts</a></li>
 </div>
 </div>
 </div>
-<script src="/assets/vendor/bootstrap/bootstrap.min.js?v=22.5.1.0"></script>
-<script type="text/javascript">(function(){window['__CF$cv$params']={r:'710c19eff95031d3',m:'ebc1NPxuenpZBW5C92LSU.S6IPzkxsfCmzzTlt3Sixs-1653458956-0-AQZU4VWXm4nEJqqdp99qHUMciL9OWQJISB60cpWTNVnDHVDdcppuckhew/2x9FaSq13oXbALv45rz4RCbf7H70IhFvZp7zRdYiSLplW7D02j29SUxuiemiqDjJAeQvSuIMZkV0+Z/aWryp9rZPyojrUuOkmqh7/A5oGfabr3jdewWtDpYWQbBGmThdjVjsPQ6lymXm1XGa1DVOnnC8wOKqYROm27c7+T3esKsVYldyhF/ixKosUUsVlrkidxOLeCElhpupgc5mb5FO/0Zre1dV4JG9b0IsPMoBBtz9fEjUdL',s:[0x0a429e8421,0x637a19d888],u:'/cdn-cgi/challenge-platform/h/g'}})();</script></body>
+<script src="/assets/vendor/bootstrap/bootstrap.min.js?v=22.5.3.0"></script>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'710e301f7ce57ce9',m:'I92lRBC5HezUw252HGRPUxnzODYmNz0rQ7x6MOtRHF4-1653480837-0-Adv53WGe240PbBBFYgapz5BjQ1FkMvPXXdwsY0ABuRPGZaUljRmEDc7nR88OCazzNQuGCR7Pq/wlTFxl7MNOA/INGRE4zngzfHW4vRBCz9Bytu5nk2xBak9lvwdXUvWEHoLoDb8EFQF+W8jTqFEPpiHSarha+QkI9RJSJ4ASDbaVSlMOzAICpKxU5eQ3g/Cl2TPPpHlqogG0myfX14BxIh0Mmvko/OG2xTQSEB+1axCyrbg9C4bJKD8kKejOfcstHp/gfOIKNXl1n1nb6vpAHjQMYOpuKk8jlv8h4aBgm0lT',s:[0xc24eab3247,0xde0ebcf3c0],u:'/cdn-cgi/challenge-platform/h/g'}})();</script></body>
 <script type="text/javascript"> 
     $(window).on('load', function () {
         $('#overlay').fadeOut();
