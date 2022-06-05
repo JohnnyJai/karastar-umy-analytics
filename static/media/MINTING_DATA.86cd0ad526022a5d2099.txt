@@ -91,7 +91,7 @@
 
         var contractAddress = '0x0522ecfe37ab2bdb5d60a99e08d1e8379bd35c00';
         var address = '0x7788d9db565828fd99cfdc32414958587d09ae15';
-        var current_usd_eth_value = 300.52;
+        var current_usd_eth_value = 299.25;
         var chartHeight = 500;
 
         var plotData = eval([]);
@@ -644,7 +644,7 @@
 
           
     </script>
-<script async src='/cdn-cgi/challenge-platform/h/g/scripts/invisible.js?ts=1654358400'></script></head>
+<script async src='/cdn-cgi/challenge-platform/h/g/scripts/invisible.js?ts=1654387200'></script></head>
 <body id="body">
 <style>
         #overlay {
@@ -671,7 +671,7 @@ Token Balance</a></li>
 Token Transfer Amounts<sup><span class="badge badge-success ml-1"> New</span></sup></a></li>
 <li id="li_tab2" class="nav-item">
 <a class="nav-link" href="#tab2" data-toggle="tab">
-Token Transfer Counts</a></li>
+ Token Transfer Counts</a></li>
 </ul>
 <div class="tab-content card border p-3 mb-4">
 <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
@@ -731,7 +731,7 @@ Token Transfer Counts</a></li>
 </div>
 </div>
 <script src="/assets/vendor/bootstrap/bootstrap.min.js?v=22.5.3.0"></script>
-<script type="text/javascript">(function(){window['__CF$cv$params']={r:'71629b09bbda8256',m:'anuGO6SZGJ66hlSx7KLXM0O1Ka3nx.GFy6WVavtonG4-1654366020-0-AUpgDwFVh3elY63Tb25T5GySLCBXJjOkv+Y3Swmj8G28mJZAWQIbV4yBjiy4h4C/0ojzEfZ+nA5WMTAeyMoWcp9K85DboDu46Yrx+3/+2CHmnc5rqSJkXBg5LJ09xK9o8EY9v5g81zLTPM3VJ4AA59HyETzdo+MpQZcSyzNbyzNwOCOomzQAF2kMhYhFf0giD8kqv25b/qlwyLuH3r0Go0emHIxmOnlxuHvTw1mhe+kUFMEqIkjmandk0AwIVewWZJhcVp8JA7trEJwxQAifaYBKWaEHW0p2cRYyDiiCTmrV',s:[0xe73c19df7a,0x263826b349],u:'/cdn-cgi/challenge-platform/h/g'}})();</script></body>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'7164da63bcc97acb',m:'u_zqVhTwD3GN_5RwNqaq9s4VtnBif5uC2lYZkqGub9w-1654389586-0-ARAglVUPjlGzof4OFDraVGFxn6yy278ujJyIR+KQP5RhcxzcVcoHnKbZb9MjZPVSTIAZ1fmwRI34SiRLHfTnkBUPvcA7jzRMq85FRJoR0JrO5u9FAFdEwTZgKF7kmr03/h3EV7gpGw5gyL90/gPq+v0+ijZVydAppfllP5v5M2nNmvv5i/9Rn2bnBJCPl6Z6TZ9LlWYsR7+q2JxLG4S5tnPVimL26VM2D1ohzyge76nhSayfmC5PYiz2SSraYpIco1mPAlKX4ZH61bnS7owKZvEqC9oUxVtDF88U8iyjRd6M',s:[0x8c8fa73441,0x7fd535d685],u:'/cdn-cgi/challenge-platform/h/g'}})();</script></body>
 <script type="text/javascript"> 
     $(window).on('load', function () {
         $('#overlay').fadeOut();
