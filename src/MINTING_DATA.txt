@@ -91,7 +91,7 @@
 
         var contractAddress = '0x0522ecfe37ab2bdb5d60a99e08d1e8379bd35c00';
         var address = '0x7788d9db565828fd99cfdc32414958587d09ae15';
-        var current_usd_eth_value = 290.34;
+        var current_usd_eth_value = 290.99;
         var chartHeight = 500;
 
         var plotData = eval([]);
@@ -644,7 +644,7 @@
 
           
     </script>
-<script async src='/cdn-cgi/challenge-platform/h/g/scripts/invisible.js?ts=1654660800'></script></head>
+<script async src='/cdn-cgi/challenge-platform/h/g/scripts/invisible.js?ts=1654689600'></script></head>
 <body id="body">
 <style>
         #overlay {
@@ -731,7 +731,7 @@ Token Transfer Counts</a></li>
 </div>
 </div>
 <script src="/assets/vendor/bootstrap/bootstrap.min.js?v=22.5.3.0"></script>
-<script type="text/javascript">(function(){window['__CF$cv$params']={r:'717f74166ac58024',m:'0wyChRYJnpVFcn_dp3fSgkJZwk2v3qMXDfTsUgDrIEg-1654668511-0-AZYXEYp16gwqQseDTiRlX25XhN31BLnyOYVMtZVGxmAXgplnGJEsWpDqDpx45I9gvQ2mhamtWx1+jrWPX8D5k/w1ZUHMN0BjWFAWCP3+oWQjbBeJlPCZBoKNmjm9DewAfNoKCdEnzv5fYRWsuw7/NF9qgiWymCGMCbB/kTxr6RbZjuWKskmo1x/jLL+kMAfI5atwCu5pwVdt+Y5CTiCshnqG7SI84af7/2dg9fk3iEh6znAMvsimZohHASLvdLxcMTs3sm5zi6qnlm4/ZcAqdfQl9s4rs888nT60qTjgDc0m',s:[0x9ca4f49785,0x102c377891],u:'/cdn-cgi/challenge-platform/h/g'}})();</script></body>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'71818aaf5f7a8698',m:'B5BdNEpe9ZGFvA0qszGSZytLQXJVeTkA.AqM.5OX7_U-1654690408-0-AZ5yyijbSzncnjRa1tR7jv39pRJh/vPsRRgklYdjvMA5YcJf52wawbCWWX4ATYOsfhlEqAHdhyBt8ihYCo9zuy9Hff0XeJwVHYca9QfAiPkq8MgzYpuK67KdwIhONYIElPi3iVbezoUbEom6J/A5CQrlUDZiDcAiK1nFB82TNRkE2s+ihZXMwXaRawJjrq7mlg3DtejXIArQYLvviYSy1LdaTmjDIa/TSq8yr5hsImDZIv8O7OB5KKRkZ6hGUYj4sRXoxQZJJgm7SEtAuGtBPuZ3a1zSB51S9lCqJMvBhl48',s:[0x1c3f584393,0x536bba7a2b],u:'/cdn-cgi/challenge-platform/h/g'}})();</script></body>
 <script type="text/javascript"> 
     $(window).on('load', function () {
         $('#overlay').fadeOut();
