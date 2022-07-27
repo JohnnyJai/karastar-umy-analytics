@@ -6,10 +6,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="format-detection" content="telephone=no">
 <meta name="robots" content="noindex, nofollow">
-<link rel="stylesheet" href="/assets/vendor/font-awesome/css/fontawesome-all.min.css?v=22.6.5.1">
-<link rel="stylesheet" href="/assets/css/theme.min.css?v=22.6.5.1">
-<link rel="stylesheet" href="/assets/css/custom.css?v=22.6.5.1">
-<script src="/assets/vendor/jquery/dist/jquery.min.js?v=22.6.5.1"></script>
+<link rel="stylesheet" href="/assets/vendor/font-awesome/css/fontawesome-all.min.css?v=22.7.3.0">
+<link rel="stylesheet" href="/assets/css/theme.min.css?v=22.7.3.0">
+<link rel="stylesheet" href="/assets/css/custom.css?v=22.7.3.0">
+<script src="/assets/vendor/jquery/dist/jquery.min.js?v=22.7.3.0"></script>
 <style>
          .table.tableformat tr td {
             font-size: 8px !important;
@@ -78,12 +78,12 @@
         }
         
     </style>
-<script src="/assets/highstocks-new/js/highstock.js?v=22.6.5.1"></script>
-<script src="/assets/highcharts-new/js/highcharts-more.js?v=22.6.5.1"></script>
-<script src="/assets/highcharts-module/js/annotations.js?v=22.6.5.1"></script>
-<script src="/assets/highslide/highslide-full.min.js?v=22.6.5.1"></script>
-<script src="/assets/highslide/highslide.config.js?v=22.6.5.1" charset="utf-8"></script>
-<link rel="stylesheet" type="text/css" href="/assets/highslide/highslide.css?v=22.6.5.1" />
+<script src="/assets/highstocks-new/js/highstock.js?v=22.7.3.0"></script>
+<script src="/assets/highcharts-new/js/highcharts-more.js?v=22.7.3.0"></script>
+<script src="/assets/highcharts-module/js/annotations.js?v=22.7.3.0"></script>
+<script src="/assets/highslide/highslide-full.min.js?v=22.7.3.0"></script>
+<script src="/assets/highslide/highslide.config.js?v=22.7.3.0" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="/assets/highslide/highslide.css?v=22.7.3.0" />
 <script type="text/javascript">    
         var tokenname = 'KaraStar UMY';
         var tokensymbol = 'UMY';
@@ -91,7 +91,7 @@
 
         var contractAddress = '0x0522ecfe37ab2bdb5d60a99e08d1e8379bd35c00';
         var address = '0x0b5ebf9bab9b796e9408a8222efa4fbab625313f';
-        var current_usd_eth_value = 243.82;
+        var current_usd_eth_value = 252.13;
         var chartHeight = 500;
 
         var plotData = eval([]);
@@ -730,8 +730,8 @@ Token Transfer Counts</a></li>
 </div>
 </div>
 </div>
-<script src="/assets/vendor/bootstrap/bootstrap.min.js?v=22.6.5.1"></script>
-<script>(function(){var js = "window['__CF$cv$params']={r:'730a11708b9d8f0a',m:'Q2pybajzfMKQbiJYhT0vYqoyNonyvag9ef2pFPgKKX4-1658806346-0-AZZMPqlQS0Sro55U/ZUxv9e62g7CWLVx+6s0DXGTdJ9EaGG0ODRzchkSw/E7RIB46QfXuxMshe+RFdhITK+B/13MBlx5fvGSn3efd4lQp8XxA7gg8DBjub2nioZymBz/1mcKeZfLoN2I+jbBWRYRg+u1TWu5z0w3AdrAGUAyGMWjU2E7Z4JngGnVqFGutRCZXZvfnbb9mE3Vawhtt2rc5k230tpRpOGoAqwfh6LT7fW3iP4N7wa2CnFut3ZjMGYQlsqUQotphtTn9iD/Vddiuh5dTwQAz9DCLSWzvP9D60Ss',s:[0xa63d86a2ca,0x311715a586],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+<script src="/assets/vendor/bootstrap/bootstrap.min.js?v=22.7.3.0"></script>
+<script>(function(){var js = "window['__CF$cv$params']={r:'73123d8918028134',m:'bCrsBJKvw5BQ0jjd2QUAfpTUU.b0ke6g_IevXu75HJQ-1658892038-0-ASKZzYWur6Gtm7M7JsIpX6YzNutVh7CUt1+OmWVshCYuG2bR0Zo+yfhiUxEOTF7gnd1NbFTn+82aU2Z9AkgQP8Gy0rwODxj3WNVmOZpvK2SUZ+EqcE6jFlFnZXE9NpKOG+wjTGNslVrg1GWxavj/uvXb3U9BYtXfXu5lX/PWC7skoq7DfWOYWbF1tKtu/CJ1BbNFKXHSNvTYBiP5ypRDoaTQuLBuOIKTtwxk/3k/JLN3xO8hKQOlfk4gVm3OTnLDh8+09Hgj6xD/0wZRSUW6+jXpIbpsBSuZVOFzUjqNK63+',s:[0x96ba5cbe5c,0xf1bb963b0e],u:'/cdn-cgi/challenge-platform/h/b'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/b/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
 <script type="text/javascript"> 
     $(window).on('load', function () {
         $('#overlay').fadeOut();
